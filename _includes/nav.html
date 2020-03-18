@@ -1,0 +1,9 @@
+<nav class="nav">
+    <div class="nav__scroll">
+        <ul class="nav__list wrapper wrapper--no-padding">
+            <li class="nav__item">
+                <a href="/{{ item.link }}#{{ item.link }}" id="{{ item.link }}" title="{{ item.label | upcase }} cheatsheet" class="nav__link{% if current[1] == item.link %} active{% endif %}"><i class="nav__icon {{item.icon }}"></i> {{ item.label | upcase }} <small>({{ site[item.label] | size }})</small></a>
+            </li>
+        </ul>
+    </div>
+</nav>

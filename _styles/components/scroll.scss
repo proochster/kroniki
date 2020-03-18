@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    #SCROLL
+\*------------------------------------*/
+
+.scroll{
+
+    &-wrapper{
+        min-height: 100px;
+        max-height: 80vh;
+        overflow-x: scroll;
+    }
+
+    &-content{
+
+    }
+
+    &-row{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &-meters, &-mils{
+       padding: 10px 20px 
+    }
+}
+
+#scroll-row{
+    display: none;
+}

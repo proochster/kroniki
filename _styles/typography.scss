@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
+body{
+    color: $primary-colour;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+h1,h2,h3,h4,h5{
+    padding: 0;
+    font-weight: normal;
+}
+
+a{
+    color: $style-1-accent;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.page-title{
+    // padding: 0 0 $base-unit;
+    margin: 0;
+}
+
+.font{
+
+    &--code{
+        font-family: monospace;
+    }
+}
