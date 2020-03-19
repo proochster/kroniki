@@ -13,12 +13,12 @@
             var mils = 978;
             var mil = 0.21;
             
-            for( var i = 100; i <= 1600; i++ ){
+            for( var i = 95; i <= 1605; i++ ){
                 var cln = this.row.cloneNode(true);
 
                 cln.removeAttribute('id');
-                cln.querySelector('.scroll-meters').innerText = i;
-                cln.querySelector('.scroll-mils').innerText = Math.floor( mils );
+                cln.querySelector('.scroll-meters').innerText = i >= 100 ? i : '---';
+                cln.querySelector('.scroll-mils').innerText = mils <= 977 ? Math.floor( mils ) : '---';
 
                 this.scroll.appendChild(cln);
 
