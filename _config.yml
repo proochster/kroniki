@@ -16,7 +16,7 @@
 title: HLL Artillery Calculator
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hell Let Loose artillery reference table and calculator. Calculate MILS value from the meters input.
+  Hell Let Loose artillery reference table and calculator. Calculate meters to mils.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hll.team.tools" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
