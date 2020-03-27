@@ -19,12 +19,17 @@ body{
     padding: $base-unit;
     margin: 0 auto;
     position: relative;
+
+    &-flex{
+        display: flex;
+    }
 }
 
 .content{
     flex-grow: 1;
     width: 100%;
     box-sizing: border-box;
+    max-width: 400px;
 }
 
 .padding{
