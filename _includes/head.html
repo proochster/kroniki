@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <title>{{ site.title }}</title>
     <meta name="Description" content='{{ site.description | truncate: 160 }}'>
+    <link rel="canonical" href="{{site.url}}{{page.url}}">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162043267-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-162043267-1');
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="canonical" href="{{site.url}}{{page.url}}">
-
     <link rel="manifest" href="{{ site.url }}/manifest.json">
     <style type="text/css">{% capture include_to_scssify %}{% include bundle.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>  
     <meta name="theme-color" content="{{ site.theme-colour }}">
