@@ -9,8 +9,7 @@
         max-height: 80vh;
         overflow-x: auto;
         overflow-y: scroll;
-        background-color: #211912;  
-        border: 2px solid #4c3724;
+        background-color: #41403c;
         position: relative;  
         font-size: 20px;    
     }
@@ -60,7 +59,7 @@
             border-style: solid;
             content: '';
             position: absolute;
-            border-color: transparent transparent transparent #a77924;
+            border-color: transparent transparent transparent #76746d;
             border-width: 4px 0 4px 4px;
         }
     }
@@ -74,7 +73,7 @@
             border-style: solid;
             content: '';
             position: absolute;
-            border-color: transparent #a77924 transparent transparent;
+            border-color: transparent #76746d transparent transparent;
             border-width: 4px 4px 4px 0;
         }
     }
@@ -89,35 +88,29 @@
         // margin-left: -12px;
 
         &:before{
-            content: 'METERS';
+            content: '- METERS -';
             width: auto;
-            background: linear-gradient(to top, #f3a740, #ffcc59);
             display: inline-block;
-            border-radius: 0 5px 5px 0;
-            box-shadow: 6px 6px 4px 0px rgba(0,0,0,0.3);
-            color: #211912;
-            font-family: 'Stardos Stencil', cursive;
+            color: #ffcc6e;
+            font-family: 'Montserrat', sans-serif;
             padding: 10px;
-            font-weight: 700;
-            font-size: 10px;
+            font-size: 18px;
             position: absolute;
-            left: -12px;
+            left: -40px;
+            transform: rotateZ(90deg);
         }
 
         &:after{
-            content: 'MILS';
+            content: '- MILS -';
             width: auto;
-            background: linear-gradient(to top, #f3a740, #ffcc59);
             display: inline-block;
-            border-radius: 5px 0 0 5px;
-            box-shadow: 6px 6px 4px 0px rgba(0,0,0,0.3);
-            color: #211912;
-            font-family: 'Stardos Stencil', cursive;
+            color: #ffcc6e;
+            font-family: 'Montserrat', sans-serif;
             padding: 10px;
-            font-weight: 700;
-            font-size: 10px;
+            font-size: 18px;
             position: absolute;
-            right: -12px;
+            right: -20px;
+            transform: rotateZ(-90deg);
         }
     }
 
@@ -133,10 +126,24 @@
         a{
             display: inline-block;
             padding: 5px 10px;
+            cursor: pointer; 
+            font-family: 'Montserrat', sans-serif;
         }
+    }
+
+    &-mils{
+        color: #FFF;
+    }
+
+    &-meters{
+        color: #8BC34A;
     }
 }
 
 #scroll-row{
     display: none;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
 }

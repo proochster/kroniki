@@ -39,3 +39,10 @@ body{
         padding: $base-unitx2;        
     }
 }
+
+.site{
+    background-image: url(/assets/bg.jpg);
+    background-size: cover;
+    background-position-y: center;
+    box-shadow: inset 0px 0px 200px 200px black;
+}
