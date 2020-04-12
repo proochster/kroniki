@@ -129,7 +129,7 @@
                     this.scrollIt(
                         document.getElementById(s.text),
                         300,
-                        'easeInQuad',
+                        'easeOutQuad',
                         // () => console.log(`Just finished scrolling to ${window.pageYOffset}px`)
                     );
                 });
