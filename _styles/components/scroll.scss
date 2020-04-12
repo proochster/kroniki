@@ -5,18 +5,17 @@
 .scroll{
 
     &-content{
-        min-height: 100px;
-        max-height: 80vh;
+        max-height: calc(100vh - 100px);
         overflow-x: auto;
         overflow-y: scroll;
         background-color: #41403c;
-        position: relative;  
-        font-size: 20px;    
+        position: relative;
+        font-size: 20px; 
     }
 
     &-wrapper{
         position: relative;
-        flex-grow: 1;
+        min-width: 310px;
 
         &:after, &:before{
             content: '';
@@ -30,12 +29,12 @@
 
         &:before{
             top: 0;
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
         }
 
         &:after{
             bottom: 0;
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
         }
     }
 
@@ -122,6 +121,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
 
         a{
             display: inline-block;
