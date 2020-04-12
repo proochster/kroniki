@@ -8,9 +8,10 @@
         max-height: calc(100vh - 100px);
         overflow-x: auto;
         overflow-y: scroll;
-        background-color: #41403c;
         position: relative;
-        font-size: 20px; 
+        font-size: 20px;
+        border-left: 1px solid #8BC34A;
+        border-right: 1px solid #8BC34A;
     }
 
     &-wrapper{
