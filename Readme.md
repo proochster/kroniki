@@ -1,8 +1,4 @@
-# Hell Let Loose Artillery Calculator
-
-Hell Let Loose artillery reference table and calculator. Calculate MILS value from the meters input.
-
-https://hll.team.tools
+# Kroniki repository
 
 # Jekyll
 
