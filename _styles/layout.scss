@@ -7,12 +7,17 @@ html{
 }
 
 body{
-    background-color: #000;
+    background-color: $dark;
     display: flex;
     flex-direction: column;
     padding: 0;
     margin: 0;
     height: 100%;
+}
+
+.frames{
+    max-width: $small;
+    
 }
 
 .wrapper{
@@ -22,6 +27,10 @@ body{
 
     &-flex{
         display: flex;
+    }
+
+    &-center{
+        justify-content: center;
     }
 }
 
@@ -51,35 +60,35 @@ body{
 }
 
 .copy{
-    max-height: calc(100vh - 100px);
-    overflow-y: scroll;
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
+    // max-height: calc(100vh - 100px);
+    // overflow-y: scroll;
+    // font-family: 'Montserrat', sans-serif;
+    // position: relative;
 
-    &-scroll{
-        padding: 0 40px 30vh 40px;
-        max-width: 400px;
-    }
+    // &-scroll{
+    //     padding: 0 40px 30vh 40px;
+    //     max-width: 400px;
+    // }
 
-    strong, h1, h2{
-        color: #FFF;
-        font-weight: 100;
-    }
+    // strong, h1, h2{
+    //     color: #FFF;
+    //     font-weight: 100;
+    // }
 
-    li{
-        padding-bottom: 1.4rem;
-    }
+    // li{
+    //     padding-bottom: 1.4rem;
+    // }
 
-    img{
-        width: 100%;
-    }
+    // img{
+    //     width: 100%;
+    // }
 
-    .key {
-        border: 1px solid rgba(255, 255, 255, 0.6);
-        border-radius: 6px;
-        font-size: 10px;
-        padding: 4px 7px 2px;    
-    }
+    // .key {
+    //     border: 1px solid rgba(255, 255, 255, 0.6);
+    //     border-radius: 6px;
+    //     font-size: 10px;
+    //     padding: 4px 7px 2px;    
+    // }
 
     // &:after{
     //     content: '';

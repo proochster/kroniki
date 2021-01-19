@@ -1,0 +1,73 @@
+// @import "initial-variables" 
+
+@mixin from($device){
+    @media screen and (min-width: $device){
+        @content
+    }
+};
+
+@mixin until($device){
+    @media screen and (max-width: $device - 1px){
+        @content
+    }
+};
+
+@mixin mobile{
+    @media screen and (max-width: $small - 1px){
+        @content
+    }
+};
+
+@mixin tablet{
+    @media screen and (min-width: $small), print{
+        @content
+    }
+};
+
+@mixin tablet-only{
+    @media screen and (min-width: $small) and (max-width: $medium - 1px){
+        @content
+    }
+};
+
+@mixin desktop{
+    @media screen and (min-width: $medium){
+        @content
+    }
+};
+
+@mixin desktop-only{
+    @media screen and (min-width: $medium) and (max-width: $large - 1px){
+        @content
+    }
+};
+
+@mixin until-widescreen{
+      @media screen and (max-width: $large - 1px){
+          @content
+      }
+};
+
+@mixin widescreen{
+    @media screen and (min-width: $large){
+        @content
+    }
+};
+
+@mixin widescreen-only{
+    @media screen and (min-width: $large) and (max-width: $x-large - 1px){
+        @content
+    }
+};
+
+@mixin until-fullhd{
+    @media screen and (max-width: $x-large - 1px){
+        @content
+    }
+};
+
+@mixin fullhd{
+    @media screen and (min-width: $x-large){
+        @content
+    }
+}

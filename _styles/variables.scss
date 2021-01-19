@@ -4,13 +4,15 @@
 
 
 // Colours
-$primary-colour: #ffcc6e;
+$primary-colour: #FF5C00;
 $secondary-colour: #111c3a;
 $secondary-highlight: #192850;
 $grey-light: #E5E5E5;
 $grey-dark: #D8D8D8;
 $light: #FFF;
-$dark: #3C455B;
+$accent: #FF0000;
+
+$dark: #2B2B2B; // Background
 // $link: #688BE3;
 
 $style-1-primary: #dadada;
@@ -24,8 +26,8 @@ $base-unit: 12px;
 $base-unitx2: $base-unit * 2;
 $half-unit: $base-unit/2;
 
-$small: 767px;
+$x-small: 320px;
+$small: 768px;
 $medium: 1024px;
 $large: 1200px;
-
-$site-width: $large;
+$x-large: 1400px;

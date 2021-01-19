@@ -1,12 +1,15 @@
 /*------------------------------------*\
     #TYPOGRAPHY
 \*------------------------------------*/
-
 body{
-    color: $primary-colour;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Special Elite', cursive;
+    color: $grey-dark;
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.5;
+    
+    @include tablet{
+        font-size: 20px;
+    }
 }
 
 h1,h2,h3,h4,h5{
@@ -15,7 +18,7 @@ h1,h2,h3,h4,h5{
 }
 
 a{
-    color: $primary-colour;
+    color: $accent;
     text-decoration: none;
 
     &:hover{
@@ -31,6 +34,10 @@ a{
 .font{
 
     &--primary{
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Special Elite', cursive;
+    }
+
+    &--secondary{
+        font-family: 'Nixie One', cursive;
     }
 }

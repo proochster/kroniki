@@ -2,149 +2,149 @@
     #SCROLL
 \*------------------------------------*/
 
-.scroll{
+// .scroll{
 
-    &-content{
-        max-height: calc(100vh - 100px);
-        overflow-x: auto;
-        overflow-y: scroll;
-        position: relative;
-        font-size: 20px;
-        border-left: 1px solid #8BC34A;
-        border-right: 1px solid #8BC34A;
-    }
+//     &-content{
+//         max-height: calc(100vh - 100px);
+//         overflow-x: auto;
+//         overflow-y: scroll;
+//         position: relative;
+//         font-size: 20px;
+//         border-left: 1px solid #8BC34A;
+//         border-right: 1px solid #8BC34A;
+//     }
 
-    &-wrapper{
-        position: relative;
-        min-width: 310px;
+//     &-wrapper{
+//         position: relative;
+//         min-width: 310px;
 
-        &:after, &:before{
-            content: '';
-            height: 30vh;
-            width: 100%;
-            display: block;
-            position: absolute;
-            z-index: 4;
-            pointer-events: none;
-        }
+//         &:after, &:before{
+//             content: '';
+//             height: 30vh;
+//             width: 100%;
+//             display: block;
+//             position: absolute;
+//             z-index: 4;
+//             pointer-events: none;
+//         }
 
-        &:before{
-            top: 0;
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-        }
+//         &:before{
+//             top: 0;
+//             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+//         }
 
-        &:after{
-            bottom: 0;
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-        }
-    }
+//         &:after{
+//             bottom: 0;
+//             background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+//         }
+//     }
 
-    &-row{
-        display: flex;
-        justify-content: space-around;
-    }
+//     &-row{
+//         display: flex;
+//         justify-content: space-around;
+//     }
 
-    &-meters, &-mils{
-       padding: 10px 20px;
-       position: relative;
-       line-height: 1;
-    }
+//     &-meters, &-mils{
+//        padding: 10px 20px;
+//        position: relative;
+//        line-height: 1;
+//     }
 
-    &-meters{
+//     &-meters{
         
-        &:after{
-            right: -10px;
-            top: 14px;
-            border-radius: 3px;
-            border-style: solid;
-            content: '';
-            position: absolute;
-            border-color: transparent transparent transparent #76746d;
-            border-width: 4px 0 4px 4px;
-        }
-    }
+//         &:after{
+//             right: -10px;
+//             top: 14px;
+//             border-radius: 3px;
+//             border-style: solid;
+//             content: '';
+//             position: absolute;
+//             border-color: transparent transparent transparent #76746d;
+//             border-width: 4px 0 4px 4px;
+//         }
+//     }
 
-    &-mils{
+//     &-mils{
 
-        &:before{
-            left: -10px;
-            top: 14px;
-            border-radius: 3px;
-            border-style: solid;
-            content: '';
-            position: absolute;
-            border-color: transparent #76746d transparent transparent;
-            border-width: 4px 4px 4px 0;
-        }
-    }
+//         &:before{
+//             left: -10px;
+//             top: 14px;
+//             border-radius: 3px;
+//             border-style: solid;
+//             content: '';
+//             position: absolute;
+//             border-color: transparent #76746d transparent transparent;
+//             border-width: 4px 4px 4px 0;
+//         }
+//     }
 
-    &-selector{
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        height: 50px;
-        box-sizing: border-box;
-        pointer-events: none;
-        // margin-left: -12px;
+//     &-selector{
+//         position: absolute;
+//         top: 50%;
+//         width: 100%;
+//         height: 50px;
+//         box-sizing: border-box;
+//         pointer-events: none;
+//         // margin-left: -12px;
 
-        &:before{
-            content: '- METERS -';
-            width: auto;
-            display: inline-block;
-            color: #ffcc6e;
-            font-family: 'Montserrat', sans-serif;
-            padding: 10px;
-            font-size: 18px;
-            position: absolute;
-            left: -40px;
-            transform: rotateZ(90deg);
-        }
+//         &:before{
+//             content: '- METERS -';
+//             width: auto;
+//             display: inline-block;
+//             color: #ffcc6e;
+//             font-family: 'Montserrat', sans-serif;
+//             padding: 10px;
+//             font-size: 18px;
+//             position: absolute;
+//             left: -40px;
+//             transform: rotateZ(90deg);
+//         }
 
-        &:after{
-            content: '- MILS -';
-            width: auto;
-            display: inline-block;
-            color: #ffcc6e;
-            font-family: 'Montserrat', sans-serif;
-            padding: 10px;
-            font-size: 18px;
-            position: absolute;
-            right: -20px;
-            transform: rotateZ(-90deg);
-        }
-    }
+//         &:after{
+//             content: '- MILS -';
+//             width: auto;
+//             display: inline-block;
+//             color: #ffcc6e;
+//             font-family: 'Montserrat', sans-serif;
+//             padding: 10px;
+//             font-size: 18px;
+//             position: absolute;
+//             right: -20px;
+//             transform: rotateZ(-90deg);
+//         }
+//     }
 
-    &-guide{
-        padding: 20px;
-        margin: 0;
-        list-style: none;
-        background-color: #000;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+//     &-guide{
+//         padding: 20px;
+//         margin: 0;
+//         list-style: none;
+//         background-color: #000;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
 
-        a{
-            display: inline-block;
-            padding: 5px 10px;
-            cursor: pointer; 
-            font-family: 'Montserrat', sans-serif;
-        }
-    }
+//         a{
+//             display: inline-block;
+//             padding: 5px 10px;
+//             cursor: pointer; 
+//             font-family: 'Montserrat', sans-serif;
+//         }
+//     }
 
-    &-mils{
-        color: #FFF;
-    }
+//     &-mils{
+//         color: #FFF;
+//     }
 
-    &-meters{
-        color: #8BC34A;
-    }
-}
+//     &-meters{
+//         color: #8BC34A;
+//     }
+// }
 
-#scroll-row{
-    display: none;
-}
+// #scroll-row{
+//     display: none;
+// }
 
-::-webkit-scrollbar{
-    width: 5px;
-}
+// ::-webkit-scrollbar{
+//     width: 5px;
+// }
