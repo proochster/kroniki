@@ -2,21 +2,17 @@
 layout: default
 ---
 <div id="app" class="wrapper-flex wrapper-center">
-
-    <div class="frames padding">
-
-        <section class="frame">
-            <h2 class="frame--title font--primary color--primary">My copy section</h2>
-            <p class="frame-copy font--secondary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis id ut maiores, error vel nulla praesentium aut labore ipsa adipisci, ea iusto minima consequatur natus eveniet commodi ullam molestias nisi odit minus voluptatem. Quibusdam aliquam, ullam quia recusandae ex veniam obcaecati molestias eum dolore tempora autem quo vitae itaque ut.
-            </p>
-            <ul class="frame-choices choices font--secondary">
-                <li class="choices--item"><a href="/" title="Choice 1" data-choice="1">Choice 1</a></li>
-                <li class="choices--item"><a href="/" title="Choice 2" data-choice="1">Choice 2</a></li>
-                <li class="choices--item"><a href="/" title="Choice 3" data-choice="1">Choice 3</a></li>
-            </ul>
-        </section>
-
-    </div>
-
+    <div class="frames padding" id="frames"></div>    
 </div>
+
+<template id="frame-template">
+    <section class="frame">
+        <h1 class="title"></h1>
+        <p class="copy font--secondary"></p>
+        <ul class="frame-choices choices font--secondary"></ul>
+    </section>
+</template>
+
+<template id="choice-template">
+    <li class="choices--item"><a href="" title="" class="choice" data-choice=""></a></li>
+</template>
