@@ -53,7 +53,11 @@ var kron = (function(){
 
         choiceClick: function(e){
             e.preventDefault();
-            // Deducts 1 to align CSV file with the Data Sheet
+            /**
+             * Deducts 2 rows to align CSV file with the Data Sheet
+             * Document starts on row 2 and parsed data starts with index 0
+             */
+
             frameIndex = e.target.getAttribute('data-choice') - 2;
 
             // Sort out Choices
@@ -70,12 +74,8 @@ var kron = (function(){
              */
 
             let choices = choice.closest('.choices').querySelectorAll('.choices--item');
-                // console.log(choices.length);
+
             choices.forEach(c => {
-
-                console.log(choice);
-                console.log(c);
-
                 if(choice.parentElement == c){
                     c.classList.add('is-chosen');
                 } else {
