@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    #CONTENT
+\*------------------------------------*/
+
+.choices{
+
+    &--item{
+        transition:
+            transform .4s cubic-bezier(0.25, 0.1, 0.25, 1) 0ms,
+            opacity .4s cubic-bezier(0.25, 0.1, 0.25, 1) 0ms;
+
+        &.not-chosen{
+            opacity: .2;
+            pointer-events: none;
+            // transform: scale(.8);
+        }
+
+        &.is-chosen{
+            transform: translateX(-1.5rem);
+
+            a{
+                color: $grey-dark;
+            }
+        }
+    }
+}

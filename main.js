@@ -1,46 +1,109 @@
-(function(){
+var kron = (function(){
 
     var k = {
-
-        data: document.querySelector('#kData'),
+        dataElement: document.querySelector('#kData'),
         kTemplate: document.querySelector('#frame-template'),
         kChoice: document.querySelector('#choice-template'),
         frames: document.querySelector('#frames'),
         numberOfChoices: 6,
 
+        parsedData: function(){
+            const kData = JSON.parse(this.dataElement.innerHTML);
+            return kData;
+        },
+
         initFrames: function(){
-            
-            const kData = JSON.parse(this.data.innerHTML);
-
             // Load first story frame
-            this.loadFrame(kData[0]);
-
+            this.loadFrame(this.parsedData()[0]);
         },
 
         loadFrame: function(jsonFrame){
 
+            // Load <frame-template>
             const frame = document.importNode(this.kTemplate.content, true);
+
                 // Load Title and Copy to frame
-                frame.querySelector('.title').innerHTML = jsonFrame.title;
-                frame.querySelector('.copy').innerHTML = jsonFrame.copy;
+                frame.querySelector('.title').innerHTML = jsonFrame.title ? jsonFrame.title : '';
+                frame.querySelector('.copy').innerHTML = jsonFrame.copy ? jsonFrame.copy : '';
             
                 // Check for Choices
                 for( let c = 1; c <= this.numberOfChoices; ++c ){
-                    let choiceIndex = eval('jsonFrame.choice_'+c);
-                    if( choiceIndex != null ){
-                        console.log(choiceIndex);
+                    let choiceValue = eval('jsonFrame.choice_'+c);
+                    let choiceIndex = eval('jsonFrame.goto_'+c);
+
+                    if( choiceValue != null && choiceIndex != null ){
+
+                        // Load <choice-template>
                         let choice = document.importNode(this.kChoice.content, true);
-                        choice.querySelector('.choice').innerHTML = choiceIndex;
+
+                        // Set values
+                        let choiceLink = choice.querySelector('.choice');
+                        choiceLink.innerHTML = choiceValue;
+                        choiceLink.setAttribute('data-choice', choiceIndex);
+                        choiceLink.setAttribute('href', '#' + choiceIndex);
+
                         // Append Choices to Frame
                         frame.querySelector('.choices').appendChild(choice);
                     }
                 }
 
-
             // Append Frame to frames
             this.frames.appendChild(frame);
         },
 
+        choiceClick: function(e){
+            e.preventDefault();
+            // Deducts 1 to align CSV file with the Data Sheet
+            frameIndex = e.target.getAttribute('data-choice') - 2;
+
+            // Sort out Choices
+            this.sortClicks(e.target);
+
+            // Load frame
+            this.loadFrame(this.parsedData()[frameIndex]);
+        },
+
+        sortClicks: function(choice){
+            /**
+             * choice - anchor tag
+             * choices - list of choices
+             */
+
+            let choices = choice.closest('.choices').querySelectorAll('.choices--item');
+                // console.log(choices.length);
+            choices.forEach(c => {
+
+                console.log(choice);
+                console.log(c);
+
+                if(choice.parentElement == c){
+                    c.classList.add('is-chosen');
+                } else {
+                    c.classList.add('not-chosen');
+                }
+            });
+        },
+
+        init: function(){
+            if( k.dataElement ){
+                this.initFrames();
+            }
+            // scrollTo = document.querySelectorAll('[data-scroll]');
+
+            // scrollTo.forEach( s => {
+
+            //     s.addEventListener('click', () => {
+
+            //         this.scrollIt(
+            //             document.getElementById(s.text),
+            //             300,
+            //             'easeOutQuad',
+            //             // () => console.log(`Just finished scrolling to ${window.pageYOffset}px`)
+            //         );
+            //     });
+            // });
+        },
+        
         // calculator: function(){
 
         //     var mils = 978 + 2;
@@ -150,30 +213,11 @@
         
         //     scrollAnimation();
         // },
-
-        init: function(){
-            if( k.data ){
-                this.initFrames();
-            }
-
-            // scrollTo = document.querySelectorAll('[data-scroll]');
-
-            // scrollTo.forEach( s => {
-
-            //     s.addEventListener('click', () => {
-
-            //         this.scrollIt(
-            //             document.getElementById(s.text),
-            //             300,
-            //             'easeOutQuad',
-            //             // () => console.log(`Just finished scrolling to ${window.pageYOffset}px`)
-            //         );
-            //     });
-            // });
-        }
-    }
+    };
     
     return (
-        k.init()
-    )
+        k.init(),
+        k
+    );
+
 })();
