@@ -1,4 +1,4 @@
-[{% for entry in site.data.data %}
+[{% for entry in site.data.[page.data] %}
     {
     "chapter":{{ entry.chapter | jsonify }}
     {% if entry.title != null %},

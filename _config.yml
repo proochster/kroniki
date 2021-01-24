@@ -34,6 +34,16 @@ sass:
   sass_dir: ./_styles
   style: compressed
 
+collections:
+  stories:
+    output: true
+
+defaults:
+  - scope:
+      type: stories
+    values:
+      layout: story
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

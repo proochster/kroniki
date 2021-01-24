@@ -1,0 +1,22 @@
+---
+---
+{% include head.html %}
+{% include header.html %}
+<main class="content">
+    <div id="app" class="wrapper-flex wrapper-center">
+        <div class="frames padding" id="frames"></div>    
+    </div>
+    
+    <template id="frame-template">
+        <section class="frame">
+            <h1 class="title"></h1>
+            <p class="copy font--secondary"></p>
+            <ul class="frame-choices choices font--secondary"></ul>
+        </section>
+    </template>
+    
+    <template id="choice-template">
+        <li class="choices--item"><a href="" title="" class="choice" onclick="kron.choiceClick(event)"></a></li>
+    </template>
+</main>
+{% include footer_story.html %}

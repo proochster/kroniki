@@ -1,18 +1,6 @@
 ---
-layout: default
+layout: homepage
 ---
-<div id="app" class="wrapper-flex wrapper-center">
-    <div class="frames padding" id="frames"></div>    
-</div>
-
-<template id="frame-template">
-    <section class="frame">
-        <h1 class="title"></h1>
-        <p class="copy font--secondary"></p>
-        <ul class="frame-choices choices font--secondary"></ul>
-    </section>
-</template>
-
-<template id="choice-template">
-    <li class="choices--item"><a href="" title="" class="choice" onclick="kron.choiceClick(event)"></a></li>
-</template>
+<ul>{% for story in site.stories  %}
+    <li><a href="{{ story.url  }}" title="{{ story.title }}">{{ story.title }}</a></li>
+{% endfor  %}</ul>

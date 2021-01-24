@@ -1,0 +1,11 @@
+chapter,title,image,copy,choice_1,goto_1,choice_2,goto_2,choice_3,goto_3,choice_4,goto_4,choice_5,goto_5,choice_6,goto_6
+1,Go to sleep,room,"You wake up in a dark, silent room. It smells of old furniture, burnt candles and an old carpet your head is laying at. 
+
+Head empty of any memory explaining where you are or even who you are.",Get up,3,Stay on the ground. Maybe the memories will come back.,5,,,,,,,,
+,,,"You wobble up to your feet. The head is spinning. A quiet wisper comes from behind a closed door:
+
+""You're finnally awake. Excellent! They would like to see you. Come now! Hurry up!""",Open the door,4,,,,,,,,,,
+,,,You push the door slowly to see an empty corridor lit by a small candle lamp sitting on floor outside of the room.,Pickup the lamp,7,Step back and shut the door,6,,,,,,,,
+,,,You close your eyes and fall asleep within a few breaths ,...open your eyes,2,,,,,,,,,,
+,,,Stepping back you trip on sometnig and fall to the ground.,"""Shit!"". Get up",3,,,,,,,,,,
+2,Corridor,,...,,,,,,,,,,,,
