@@ -16,13 +16,12 @@ var kron = (function(){
         initFrames: function(){
 
             // Check Local Storage for Story item
-            // console.log('Data storage key: ' + this.dataStorageKey);
-            let checkState = window.localStorage.getItem(this.dataStorageKey);
+            let savedState = window.localStorage.getItem(this.dataStorageKey);
 
-            if ( !checkState ){
+            if ( !savedState ){
 
                 // Create localStorage object and pass initial 0 state array as a value
-                // console.log('First visit: local storage ' + this.dataStorageKey + ' created');
+                console.log('First visit: local storage ' + this.dataStorageKey + ' created');
                 window.localStorage.setItem(this.dataStorageKey, JSON.stringify([0]));
                 // Load first frame
                 this.loadFrame(this.parsedData()[0]);
@@ -30,16 +29,19 @@ var kron = (function(){
             } else {
 
                 // Load frames by iterating through local storage data
-                let parsedState = JSON.parse(checkState);
+                let parsedState = JSON.parse(savedState);
+
                 // Loop throug saved choices
                 parsedState.forEach( (s, sIndex) => {
+
                     // Check if last choice and load with active options
                     if( parsedState.length -1 === sIndex ){
                         this.loadFrame(this.parsedData()[s]);
-                    // Oterwise disable options
+                    // Oterwise disable choices and set highlights on selected ones
                     } else {
-                        this.loadFrame(this.parsedData()[s], true);
+                        this.loadFrame(this.parsedData()[s], true, parsedState[s + 1]);
                     }
+
                 });
 
                 console.log('Welcome back: local storage ' + this.dataStorageKey + ' alredy created');
@@ -47,17 +49,18 @@ var kron = (function(){
             }            
         },
 
-        loadFrame: function(jsonFrame, completed){
+        loadFrame: function(jsonFrame, inactive, selectedChoice){
 
             // Load <frame-template>
             const frame = document.importNode(this.kTemplate.content, true);
 
-                // Load Title and Copy to frame
+                // Load Title and Copy to the frame
                 frame.querySelector('.title').innerHTML = jsonFrame.title ? jsonFrame.title : '';
                 frame.querySelector('.copy').innerHTML = jsonFrame.copy ? jsonFrame.copy : '';
             
                 // Check for Choices
                 for( let c = 1; c <= this.numberOfChoices; ++c ){
+
                     let choiceValue = eval('jsonFrame.choice_'+c);
                     let choiceIndex = eval('jsonFrame.goto_'+c);
 
@@ -72,8 +75,12 @@ var kron = (function(){
                         choiceLink.setAttribute('data-choice', choiceIndex);
                         choiceLink.setAttribute('href', '#' + choiceIndex);
 
-                        // Disable if loaded from state
-                        if( completed ){
+                        // Update state of choices when loaded from storage
+                        // Check if this was the selected choice
+                        if( selectedChoice === choiceIndex - 2 ){
+                            choiceLink.parentElement.classList.add('is-chosen');
+                        // Apply disabled style to the choice
+                        } else if ( inactive ){
                             choiceLink.parentElement.classList.add('not-chosen');
                         }
 
@@ -88,11 +95,11 @@ var kron = (function(){
 
         choiceClick: function(e){
             e.preventDefault();
+
             /**
              * Deducts 2 rows to align CSV file with the Data Sheet
              * Document starts on row 2 and parsed data starts with index 0
              */
-
             frameIndex = e.target.getAttribute('data-choice') - 2;
 
             // Update state of Choices
@@ -109,7 +116,7 @@ var kron = (function(){
             this.loadFrame(this.parsedData()[frameIndex]);
         },
 
-        sortClicks: function(choice){
+        sortClicks: function( choice ){
             /**
              * choice - anchor tag
              * choices - list of choices
