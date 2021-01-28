@@ -2,6 +2,7 @@ var kron = (function(){
 
     var k = {
         dataElement: document.querySelector('#kData'),
+        dataStorageKey: document.querySelector('#kData').getAttribute('data-story'),
         kTemplate: document.querySelector('#frame-template'),
         kChoice: document.querySelector('#choice-template'),
         frames: document.querySelector('#frames'),
@@ -13,11 +14,40 @@ var kron = (function(){
         },
 
         initFrames: function(){
-            // Load first story frame
-            this.loadFrame(this.parsedData()[0]);
+
+            // Check Local Storage for Story item
+            // console.log('Data storage key: ' + this.dataStorageKey);
+            let checkState = window.localStorage.getItem(this.dataStorageKey);
+
+            if ( !checkState ){
+
+                // Create localStorage object and pass initial 0 state array as a value
+                // console.log('First visit: local storage ' + this.dataStorageKey + ' created');
+                window.localStorage.setItem(this.dataStorageKey, JSON.stringify([0]));
+                // Load first frame
+                this.loadFrame(this.parsedData()[0]);
+
+            } else {
+
+                // Load frames by iterating through local storage data
+                let parsedState = JSON.parse(checkState);
+                // Loop throug saved choices
+                parsedState.forEach( (s, sIndex) => {
+                    // Check if last choice and load with active options
+                    if( parsedState.length -1 === sIndex ){
+                        this.loadFrame(this.parsedData()[s]);
+                    // Oterwise disable options
+                    } else {
+                        this.loadFrame(this.parsedData()[s], true);
+                    }
+                });
+
+                console.log('Welcome back: local storage ' + this.dataStorageKey + ' alredy created');
+
+            }            
         },
 
-        loadFrame: function(jsonFrame){
+        loadFrame: function(jsonFrame, completed){
 
             // Load <frame-template>
             const frame = document.importNode(this.kTemplate.content, true);
@@ -42,6 +72,11 @@ var kron = (function(){
                         choiceLink.setAttribute('data-choice', choiceIndex);
                         choiceLink.setAttribute('href', '#' + choiceIndex);
 
+                        // Disable if loaded from state
+                        if( completed ){
+                            choiceLink.parentElement.classList.add('not-chosen');
+                        }
+
                         // Append Choices to Frame
                         frame.querySelector('.choices').appendChild(choice);
                     }
@@ -60,8 +95,15 @@ var kron = (function(){
 
             frameIndex = e.target.getAttribute('data-choice') - 2;
 
-            // Sort out Choices
+            // Update state of Choices
             this.sortClicks(e.target);
+
+            // Save Choice to local storage
+            let currentState = JSON.parse(window.localStorage.getItem(this.dataStorageKey));
+            currentState.push(frameIndex);
+            window.localStorage.setItem(this.dataStorageKey, JSON.stringify(currentState));
+            // console.log(currentState, currentState.push(frameIndex));
+
 
             // Load frame
             this.loadFrame(this.parsedData()[frameIndex]);
