@@ -1,5 +1,6 @@
 ---
-title: Sample story
-data: sample-data
-language: PL
+layout: homepage
 ---
+<ul>{% for story in site.stories  %}
+    <li><a href="{{ story.url | absolute_url }}" title="{{ story.title }}">{{ story.title }} <small>({{ story.language }})</small></a></li>
+{% endfor  %}</ul>

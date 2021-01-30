@@ -1,0 +1,11 @@
+[{% for entry in site.data.[page.language].[page.characters] %}
+    {
+    "character_name":{{ entry.character_name | jsonify }}
+    {% if entry.image != null %},
+        "image":{{ entry.image | jsonify }}
+    {% endif %}
+    {% if entry.description != null %},
+        "description":{{ entry.description | jsonify }}
+    {% endif %}}
+    {% if forloop.last != true %},{% endif %}
+{% endfor %}]
