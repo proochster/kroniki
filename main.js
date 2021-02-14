@@ -62,7 +62,10 @@ var kron = (function(){
 
                 // Load Title and Copy to the frame
                 frame.querySelector('.title').innerHTML = jsonFrame.title ? jsonFrame.title : '';
-                frame.querySelector('.copy').innerHTML = jsonFrame.copy ? jsonFrame.copy : '';
+
+                let formattedCopy = jsonFrame.copy ? jsonFrame.copy : '';
+                formattedCopy = formattedCopy.replace(/\r\n/g, "<br />");
+                frame.querySelector('.copy').innerHTML = formattedCopy;
 
                 // Check for Choices
                 for( let c = 1; c <= this.numberOfChoices; c++ ){
