@@ -2,5 +2,5 @@
 layout: homepage
 ---
 <ul>{% for story in site.stories  %}
-    <li><a href="{{ story.url | absolute_url }}" title="{{ story.title }}">{{ story.title }}</a></li>
+    <li><a href="{{ story.url | absolute_url }}" title="{{ story.title }}">{{ story.title }} <small>({{ story.language }})</small></a></li>
 {% endfor  %}</ul>

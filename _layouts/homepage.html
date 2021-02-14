@@ -1,12 +1,22 @@
 ---
 ---
 {% include head.html %}
-{% include header.html %}
-<main class="content">
-    <div class="wrapper-flex">
+
+<div class="hero">
+    {% include header.html %}
+    <picture class="image-fixed" id="hero-image">
+        <img src="{{'/assets/intro.jpeg' | relative_url }}" alt="">
+    </picture>
+    <div class="hero-content wrapper-flex">
         <div class="padding">
-            {{ content }}
-        </div>    
+            <h1>An experimental open source platform for writing and publishing choice-driven stories.</h1>
+        </div>
+    </div>
+</div>
+
+<main>    
+    <div class="wrapper-flex padding">
+        {{ content }}
     </div>
 </main>
 {% include footer.html %}

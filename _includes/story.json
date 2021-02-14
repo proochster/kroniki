@@ -1,4 +1,4 @@
-[{% for entry in site.data.[page.language].[page.data] %}
+[{% for entry in site.data.[page.language].[page.slug].['story'] %}
     {
     "chapter":{{ entry.chapter | jsonify }}
     {% if entry.title != null %},

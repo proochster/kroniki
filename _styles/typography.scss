@@ -41,3 +41,18 @@ a{
         font-family: 'Roboto Slab', serif;
     }
 }
+
+.size{
+
+    &-small{
+        font-size: .8em;
+    }
+
+    &-large{
+        font-size: 1.2em;
+    }
+
+    &-xlarge{
+        font-size: 2em;
+    }
+}
