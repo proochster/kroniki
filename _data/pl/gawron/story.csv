@@ -30,10 +30,8 @@ Jedna z kobiet wysunęła się z nad wozu. W ręku trzyma rusznicę celując w w
 Ruszasz za towarzyszami. Jano jeszcze ogląda się za siebie. 
 -Nie ma co się dziwić wyglądacie na obwiesi - mruknął Gawron.  
 
-",Zbywasz tą uwagę milczeniem.,12,-Sam wyglądasz jak obwieś!,11,,,,,,,,
-,,,"-Sam wyglądasz jak obwieś! 
-
--Gawron ma racje nie wyglądamy najlepiej - Jano śmieje się głośno.  - My się jeszcze domyjemy ale jego gębą będą dzieci straszyć nawet jakby miesiąc w balii siedział. Pierwszy z towarzyszy nie odwracając się pokazał palec - co jeszcze bardziej raduje Jano. 
+",Zbywasz tą uwagę milczeniem.,12,-I kto to mówi?,11,,,,,,,,
+,,,"-Gawron ma racje nie wyglądamy najlepiej - Jano śmieje się głośno.  - My się jeszcze domyjemy ale jego gębą będą dzieci straszyć nawet jakby miesiąc w balii siedział. Pierwszy z towarzyszy nie odwracając się pokazał palec - co jeszcze bardziej raduje Jano. 
 ",Dalej,12,,,,,,,,,,
 ,,,"Konie człapią dalej w rozmokniętym błocie i śniegu. Słychać skrzek mew latających nad rzeką. Na drodze przed wami daleko może kilometr z rzadkiego bukowego lasu wychodzą ludzie. Idą pieszo drogą która podąża ku wam. Z daleka już widać że to zbrojni. 
 Gawron odwraca się do was:
@@ -59,15 +57,52 @@ Jesteście coraz bliżej. Zbrojnych jest sześciu nie wyglądają na regularny o
 -Co za chołota - Gawron spluwa w ślad za nimi. 
 
 -Gorszych ze świecą szukać - dopowiada Jano. Jedzie chwilę cały czas patrząc na oddział który minęliście. 
-NIe powinniśmy tych siostrzyczek zostawiać samych na pustej drodze. 
-",Same chciały jedzmy dalej.,,Masz racje zawrócmy. ,18,,,,,,,,
+-Nie powinniśmy tych siostrzyczek zostawiać samych na pustej drodze. 
+","Same chciały, jedzmy dalej.",17,Masz racje zawrócmy. ,18,,,,,,,,
 ,,,"Droga skęca lekko ku skarpie po prawej rzeka cały czas jest po lewej ale oddalacie się od niej . Powoli dojerzdzacie do lasu. Drzewa bez liści sprawiają smutne wrażenie panuje cisza słychać tylko wolne monotonne człapanie koni. W oddali gdzieś za Wami słyszysz odgłos strzału. Spłoszone ptaki zrywają się z krakaniem i zaczynają krążyć nad okolicą. Wszyscy trzej odwracacie głowy. - Co nas to obchodzi - odzywa się Gawron -Nie nasza sprawa, jedzmy do karczmy jestem już zmęczony.
-",Racja do wurdzen.,,Zawracasz!,18,,,,,,,,
+",Racja do jedzmy do Wurzen.,,Zawracasz!,18,,,,,,,,
 ,,,"Pędzisz galopem twoi towarzysze wyjeli broń i pędzą za tobą, Gawron klnie siarczyście.
-Kiedy docieracie do wozu widzicie pierwszą z kobiet leżąca bez przytomniości a drugą szarpaną przez jednego z oprychów. Reszta otacza wóz.
+Kiedy docieracie do wozu widzicie pierwszą z kobiet leżąca bez przytomniości a drugą szarpaną przez jednego z oprychów. Reszta otacza wóz. Wasze przybycie ich zdezorientowało.
 
 ",Wjerzdzasz w zbrojnych.,19,Puść ją! ,20,,,,,,,,
-,,,"Stratowałeś jednego z obwiesi i miałeś już ciąć drugiego kiedy widzisz że Jano huknął go po łbie mieczem. Kiedy zawracasz konia widzisz że trzech z bandytów leży a reszta ucieka przez wysokie krzaki stronę skarpy.
+,,,"Stratowałeś jednego z obwiesi i miałeś już ciąć drugiego kiedy widzisz że Jano huknął go po łbie mieczem. Kiedy zawracasz konia widzisz że trzech z bandytów leży a reszta ucieka przez wysokie krzaki w stronę skarpy.
+
+",Zawracasz konia i gonisz bandytów uciekających ku skarpie. ,26,Zostajesz. ,,,,,,,,,
+,,,My ludzie od Czarnego - pana na tych ziemiach i burmistrza Wurzen. To one złamały prawo! ,Milcz psie! Na nich!,19,"Gówno mnie to obchodzi. Masz ją puścić, bo posmakujesz żelaza. ",21,,,,,,,,
+,,,-Wszystko w okolicy nalerzy do Czarnego - One same szukały rzywności! Czarny nie może nam tego zakazac odezwala się zakonnica. Jak chcecie - hersz daje znak bandzie i odchodzą w kierunku skarpy. Zostajecie sami z pobitymi kobietami.,,,,,,,,,,,,
+,,, próbowałeś odjechać ale wtedy poczułes bul w plecach zgiołeś się i spadłeś z konia próbowałeś odczołgać ale kilka sztychów włuczni w twoje wyprężone plecy dokonało dzieła,,,,,,,,,,,,
+,,,Nie miał szans cofnąć włuczni naparłes na niego wierzchowcem i rąbnołes od góry zasłonił się ręką ale drugi cios roztrzaskał mu głowę. Zginłą szybko widzisz jak jego ciało drga a potem nieruchomieje na ziemi. ,wracasz,41,,,,,,,,,,
+,,,Uderzył ale jego cios zatrzymał się na twojej klindze i zjechał aż do jelca pchnąłeś z siłą i poczułeś jak miecz wbija się w jego pierś. Włócznik zaatakował znienacka ledwo odbiłeś jego włócznie,wjerzdzasz na niego koniem,23,prubujesz oddalić się żeby zaatakowac ponownie,22,,,,,,,,
+,,,Włucznia wbija się w pierś twojego wierzchowca ,Próbujesz utrzymać na wierzchowcu,28,Zsuwasz z siodła.,29,,,,,,,,
+,,,"Bandyci biegną przez krzaki i powalone pnie twój koń musi omijać przeszkody. Dwóch bandytów ten z włócznią i jeden z kordem orientują się że jesteś sam i zawracają ku tobie.Ten z kodem jest po lewej a z włócznią po prawej.
+
+
+
+",Rzućcie broń,27,szarrzujesz na tego z włucznią,25,szarżujesz na tego z kordem,24,,,,,,
+,,,Bandyci podbiegają do ciebie ten z włócznią dźga twojego konia w pierś. Koń staje dęba. ,Próbujesz utrzymać na wierzchowcu,28,Zsuwasz z siodła.,29,,,,,,,,
+,,,"Twój koń upadł niezgrabnie na bok przygniatając ci nogę słyszysz ohydne chrupnięcie. Wierzga chwilę zanim się podnosi a ty krzyczysz z bólu. Tempo patrzysz na złamaną nogę z której wystaje kość. Jeden z oprawców podchodzi do Ciebie i dźga włócznią niezgrabnie zasłaniasz się ręką ale on nie przestaje, raz drugi trzeci, twój krzyk zamiera zamieniając się w charchot. 
+",,,,,,,,,,,,
+,,,Udaje ci się zeskoczyć z upadającego konia na chwile wierzgający spłoszony i ranny wierzchowiec zasłania Cię od przeciwników,Uciekasz. ,30,"Jak tylko koń zejdzie ci z drogi atakujesz z furią.
+",31,"Omijasz krzak i starasz się zajść włócznika z prawej.
+
+",39,Stajesz w postawie obronnej.,32,,,,
+,,,"Słyszysz jeszcze chwilę goniących Cię ludzi ale po chwili wypadasz na drogę - pogoń ustała. Dyszysz ciężko twój koń zaplątał się kilkadziesiąt metrów dalej odczepiasz go i  wracasz do wozu. 
 
 ",,,,,,,,,,,,
-,,,My ludzie Czarnego pana na tych ziemiach i burmistrza Wurzen to one złamały prawo! ,Milcz psie! Atakujesz!,19,Gówno mnie to obchodzi zostaw ją po posmakujesz żelaza (lol) ,,,,,,,,,
+,,,"Uderzasz na nich ale stajesz naprzeciwko pchającego cię włócznika w ostatniej chwili parujesz włócznie  kiedy drugi z przeciwników doskakuje. Ciosu który wybija ci zęby i masakruje twarz nie widzisz, czujesz tylko bul. Splątani wywracacie się chwile się szamoczesz pod nim czując jego smród  ale drugi staje nad wami i metodycznie dźga cię twój krzyk zamienia się w rzężeni",,,,,,,,,,,,
+,,,"Oni podchodzą do ciebie wolno najpierw atakuje ten z włócznią ale jesteś na to przygotowany.
+
+
+",Próbujesz z całej siły ściąć włócznie.,34,Zbijasz włócznie chcąc ją przechwycić,35,,,,,,,,
+,,,"Jeszcze chwilę ale najwidoczniej lepiej zna teren po chwili znika ci i słyszysz tylko jak się oddala.
+",wracasz,41,,,,,,,,,,
+,,,"Włócznia pęka a bandyta zostaje z ułomkiem w ręku. Szybki sztych w gardło jest tak niespodziewany że nawet nie zdążył krzyknąć osuwa się próbując zatamować krew rękami. Drugi próbuje cię zajść ale w tym momencie orientuje się że został sam. Zatrzymał się z wahaniem. 
+",udezrasz,36,Dajesz mu uciec. ,35,,,,,,,,
+,,,Cofa się kilka kroku. Potyka się i przewraca o kępę suchego wrotyczu. Upuszcza zardzewiały kord. W jego oczach widać paniczny strach. Rzuca do ucieczki. ,wracasz,41,,,,,,,,,,
+,,,Próbował odwrócić się do ucieczki więc twój cios dosięga jego barku i kaleczy rękę. Krzycząc z bólu pada. Z wykrzywioną bólem twarzą patrzy przerażony na wyciekającą z niego krew która niezdarnie próbuje zatamować. ,dobijasz,37,odchodzisz,38,,,,,,,,
+,,,Kiedy wbijasz mu sztych miecza w gardło otwiera w przerażeniu oczy i patrzy w twoje nigdy nie zapomnisz wyrazu jego oczu. Umiera z bulgotem krwi wylewającej się z jego ust.,wracasz,,,,,,,,,,,
+,,,Odchodzisz ale słyszysz jeszce chwile jęki konającego.,wracasz,41,,,,,,,,,,
+,,,Wyskakujesz do niego z boku - tego się nie spodziewał. Przy pierwszym dźgnięciu skulił się wypuszczając broń i osuwając się na kolana. Następny cios prawie odrąbuje mu odsłonięty kark. Drugi próbuje cię zajść ale w tym momencie orientuje się że został sam. Zatrzymał się z wahaniem. ,uderzasz,36,dajesz mu uciec,35,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,Wracasz do wozu prowadząc konia. Machasz towarzyszom. Jano kiwa głową.,zatrzymujesz się przy wozie,41,,,,,,,,,,
+,,,Kobiety wspólnie zbierają się z ziemi są przerażone i roztrzęsione.,,,,,,,,,,,,
