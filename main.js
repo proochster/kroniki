@@ -64,7 +64,7 @@ var kron = (function(){
                 frame.querySelector('.title').innerHTML = jsonFrame.title ? jsonFrame.title : '';
 
                 let formattedCopy = jsonFrame.copy ? jsonFrame.copy : '';
-                formattedCopy = formattedCopy.replace(/\r\n/g, "<br />");
+                formattedCopy = formattedCopy.replace(/\n/g, "<br />");
                 frame.querySelector('.copy').innerHTML = formattedCopy;
 
                 // Check for Choices
