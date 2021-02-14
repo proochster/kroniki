@@ -7,6 +7,8 @@ var kron = (function(){
         kChoice: document.querySelector('#choice-template'),
         frames: document.querySelector('#frames'),
         numberOfChoices: 6,
+        
+        devClear: document.querySelector('#dev-clear'),
 
         parsedData: function(){
             const kData = JSON.parse(this.dataElement.innerHTML);
@@ -139,9 +141,20 @@ var kron = (function(){
             });
         },
 
+        clearChoices: function(){
+            k.devClear.addEventListener('click', () => {
+                console.log('Clearing choices for ' +  this.dataStorageKey);                
+                window.localStorage.clear(this.dataStorageKey);
+                location.reload();
+            });
+        },
+
         init: function(){
             if( k.dataElement ){
                 this.initFrames();
+            }
+            if( k.devClear ){
+                this.clearChoices();
             }
             // scrollTo = document.querySelectorAll('[data-scroll]');
 
