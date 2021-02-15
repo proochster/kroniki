@@ -5,11 +5,12 @@
 <div class="hero">
     {% include header.html %}
     <picture class="image-fixed" id="hero-image">
-        <img src="{{'/assets/intro.jpeg' | absolute_url }}" alt="">
+        <source media="(min-width: 1024px)" srcset="{{'/assets/theme/intro_large.jpeg' | absolute_url }}">
+        <img src="{{'/assets/theme/intro_small.jpeg' | absolute_url }}" alt="">
     </picture>
     <div class="hero-content wrapper-flex">
         <div class="padding">
-            <h1>An experimental open source platform for writing and publishing choice-driven stories.</h1>
+            <h1 class="text-shadow">An experimental open source platform for writing and publishing choice-driven stories.</h1>
         </div>
     </div>
 </div>

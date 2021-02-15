@@ -16,7 +16,7 @@ body{
 }
 
 .frames{
-    max-width: $small;
+    // max-width: $small;
     width: 100%;    
 }
 
@@ -29,6 +29,10 @@ body{
         display: flex;
         max-width: 640px;
         margin: 0 auto;
+
+        @include desktop{
+            max-width: 1024px;
+        }
     }
 
     &-center{
@@ -62,13 +66,17 @@ body{
 }
 
 .hero{
-    min-height: 50vh;
+    min-height: 70vh;
     overflow: hidden;
     align-items: stretch;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
+
+    @include desktop{
+        min-height: 50vh;
+    }
 
     picture{
         position: absolute;
