@@ -7,7 +7,7 @@
     "background_color": "{{ site.theme-colour }}",
     "description": "{{ site.description }}",
     "display": "standalone",
-    "start_url": "/",
+    "start_url": "{{ site.url }}",
     "icons": [
       {
         "src": "{{'/assets/theme/icons/kroniki-icon-16x16.png' | absolute_url }}",
