@@ -68,7 +68,7 @@ var kron = (function(){
                 if( jsonFrame.image ){
                     let imageElement = document.createElement('img');
                     imageElement.setAttribute('alt', jsonFrame.image );
-                    imageElement.setAttribute('src', '../../assets/stories/' + this.storySlug + '/' + jsonFrame.image );
+                    imageElement.setAttribute('src', '../../../assets/stories/' + this.storySlug + '/' + jsonFrame.image );
                     frame.querySelector('.frame').prepend(imageElement);
                 }
 
