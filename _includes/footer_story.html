@@ -9,6 +9,6 @@
         <script type="application/json" id="kData" data-story="{{ page.slug | append: '-story' }}">{% include /story.min.json %}</script>
         <script type="application/json" id="kCharacters" data-characters="{{ page.slug | append: '-characters' }}">{% include /characters.min.json %}</script>
         <script type="application/json" id="kItems" data-characters="{{ page.slug | append: '-items' }}">{% include /items.min.json %}</script>
-        <script src="{{ '/main.js' | absolute_url }}"></script>
+        <script src="{{ site.url }}/main.js?v={{ site.time | date:'%s' }}"></script>
     </body>
 </html>

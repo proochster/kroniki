@@ -1,6 +1,7 @@
 var kron = (function(){
 
     var k = {
+        storySlug: document.body.getAttribute('data-slug'),
         dataElement: document.querySelector('#kData'),
         dataStorageKey: document.querySelector('#kData').getAttribute('data-story'),
         kTemplate: document.querySelector('#frame-template'),
@@ -59,6 +60,17 @@ var kron = (function(){
 
             // Load <frame-template>
             const frame = document.importNode(this.kTemplate.content, true);
+
+                // Image 
+
+                console.log(this.storySlug);
+
+                if( jsonFrame.image ){
+                    let imageElement = document.createElement('img');
+                    imageElement.setAttribute('alt', jsonFrame.image );
+                    imageElement.setAttribute('src', '../../assets/stories/' + this.storySlug + '/' + jsonFrame.image );
+                    frame.querySelector('.frame').prepend(imageElement);
+                }
 
                 // Load Title and Copy to the frame
                 frame.querySelector('.title').innerHTML = jsonFrame.title ? jsonFrame.title : '';

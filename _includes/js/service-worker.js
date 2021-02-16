@@ -103,11 +103,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feed.xml",
-    "revision": "c0ffbd7b443693041e9c22e69e3795a2"
-  },
-  {
-    "url": "main.js",
-    "revision": "3d042e4825d16293d4958c3c4eaf8f38"
+    "revision": "35643f9545d80414f7ee7e43e23fc84c"
   },
   {
     "url": "manifest.json",
@@ -116,10 +112,6 @@ self.__precacheManifest = [
   {
     "url": "Readme.md",
     "revision": "d6bfd272519e998587713818a4a1f763"
-  },
-  {
-    "url": "workbox-config.js",
-    "revision": "710e44dd2cc9f6e07ce16661e535daeb"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
