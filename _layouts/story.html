@@ -4,20 +4,14 @@
 <main class="content">
 
     <div class="hero hero--story wrapper-flex">
-
         {% include header.html %}
-
-        {% for image in site.static_files %}
-            {% capture story_cover %}assets/stories/{{ page.slug }}/cover{% endcapture %}
+        {% for image in site.static_files %}{% capture story_cover %}assets/stories/{{ page.slug }}/cover{% endcapture %}
             {% if image.path contains story_cover %}
-
             <picture>
                 <img src="{{site.url}}{{ image.path }}" alt="">
             </picture>
-
             {% endif %}
         {% endfor %}
-
         <div class="hero-content wrapper-flex">
             <div class="text-center text-shadow color--light">
                 <h1 class="size-xlarge">{{ page.title }}</h1>

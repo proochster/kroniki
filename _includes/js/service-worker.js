@@ -26,6 +26,14 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
+    "url": "assets/stories/gawron/cover.jpeg",
+    "revision": "9dc4eecbcdb0d3eb4e9a008e503a9267"
+  },
+  {
+    "url": "assets/stories/gawron/soldier.jpg",
+    "revision": "0fe2b9602542abd50facc7bbf9c69cac"
+  },
+  {
     "url": "assets/theme/icons/kroniki-icon-114x114.png",
     "revision": "41fca34059820df24254b90a773da2ab"
   },
@@ -95,7 +103,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feed.xml",
-    "revision": "cf0f140534b0fb1eaa8c54b5dfb8cde6"
+    "revision": "c0ffbd7b443693041e9c22e69e3795a2"
   },
   {
     "url": "main.js",
@@ -103,7 +111,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "7e19381227ae707c15f4c8c54d42c812"
+    "revision": "6ea3208c55c0f3919809ded4a640d3ee"
   },
   {
     "url": "Readme.md",
@@ -111,7 +119,7 @@ self.__precacheManifest = [
   },
   {
     "url": "workbox-config.js",
-    "revision": "e21b45cd0fc09490acd0ee482b6052e6"
+    "revision": "710e44dd2cc9f6e07ce16661e535daeb"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
