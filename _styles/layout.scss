@@ -17,7 +17,9 @@ body{
 
 .frames{
     // max-width: $small;
-    width: 100%;    
+    width: 100%;
+    background-color: $dark;
+    z-index: 1;
 }
 
 .wrapper{
@@ -90,6 +92,12 @@ body{
         min-height: 50vh;
     }
 
+    &--story{
+        position: sticky;
+        top: 0;
+        z-index: 0;
+    }
+
     picture{
         position: absolute;
         left: 0;
@@ -120,7 +128,7 @@ body{
     }
 }
 
-.copy{
+// .copy{
     // max-height: calc(100vh - 100px);
     // overflow-y: scroll;
     // font-family: 'Montserrat', sans-serif;
@@ -162,4 +170,4 @@ body{
     //     bottom: 0;
     //     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     // }
-}
+// }
