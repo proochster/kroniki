@@ -31,10 +31,16 @@ body{
     }
 }
 
-.frame{
+.frame-content{
     img{
         width: auto;
         max-width: 100%;
+    }
+
+    a.choice{
+        padding: $space/2 0;
+        display: block;
+        font-size: 1.2em;
     }
 }
 
