@@ -25,6 +25,22 @@
     }
 }
 
+.padding{
+    padding: $base-unit;
+    
+    @include desktop{
+        padding: $base-unitx2;
+    }
+    
+    &--double{
+        padding: $base-unitx2;
+
+        @include desktop{
+            padding: $base-unitx4;
+        }
+    }
+}
+
 .bg{
 
     &--light{

@@ -62,18 +62,20 @@ var kron = (function(){
             const frame = document.importNode(this.kTemplate.content, true);
 
                 // Image 
-
-                console.log(this.storySlug);
-
                 if( jsonFrame.image ){
                     let imageElement = document.createElement('img');
                     imageElement.setAttribute('alt', jsonFrame.image );
                     imageElement.setAttribute('src', '../../../assets/stories/' + this.storySlug + '/' + jsonFrame.image );
-                    frame.querySelector('.frame').prepend(imageElement);
+                    frame.querySelector('.frame-content').prepend(imageElement);
                 }
 
                 // Load Title and Copy to the frame
-                frame.querySelector('.title').innerHTML = jsonFrame.title ? jsonFrame.title : '';
+                if( jsonFrame.title ){
+                    let titleElement = document.createElement('h2');
+                    titleElement.classList.add('title');
+                    titleElement.innerHTML = jsonFrame.title;
+                    frame.prepend(titleElement);
+                }
 
                 let formattedCopy = jsonFrame.copy ? jsonFrame.copy : '';
                 formattedCopy = formattedCopy.replace(/\n/g, "<br />");
