@@ -10,9 +10,10 @@
             opacity .4s cubic-bezier(0.25, 0.1, 0.25, 1) 0ms;
 
         &.not-chosen{
-            opacity: .2;
-            pointer-events: none;
+            // opacity: .2;
+            // pointer-events: none;
             // transform: scale(.8);
+            display: none;
         }
 
         &.is-chosen{
@@ -23,5 +24,69 @@
                 color: $grey-dark;
             }
         }
+    }
+}
+
+
+.frames{
+    // max-width: $small;
+    width: 100%;
+    background-color: $dark;
+    z-index: 1;
+
+    .title{
+        background-color: $dark;
+        position: sticky;
+        top: 0;
+        margin: 0;
+        z-index: 2;
+        padding: $space/2 $space;
+    }
+}
+
+.frame-content{
+
+    position: relative;
+
+    // opacity: .7;
+    &:before, &:after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        opacity: 0;
+        transition:
+            opacity .4s cubic-bezier(0.25, 0.1, 0.25, 1) 0ms;
+    }
+
+    &:before{
+        height: 1rem;
+        top: -1rem;
+        background-image: linear-gradient(to bottom, #00000000, #00000044);
+    }
+
+    &:after{
+        height: 100%;
+        background-image: linear-gradient(to bottom, #3d3d3d, $dark);
+    }
+
+    &:target:before, &:target:after{
+        opacity: 1;
+        // background: red;
+    }
+
+    img{
+        width: auto;
+        max-width: 100%;
+        padding-top: $space;
+    }
+
+    a.choice{
+        padding: $space/2 0;
+        display: block;
+        font-size: 1.2em;
     }
 }

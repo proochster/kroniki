@@ -114,15 +114,16 @@ var kron = (function(){
                         frame.querySelector('.choices').appendChild(choice);
                     }
                 }
-                            // Frame ID
-                            frame.querySelector('.frame-content').setAttribute('id', selectedChoice + 2);
-                            console.log(selectedChoice + 2);
+
+            // Add frame ID for scrolling
+            frame.querySelector('.frame-content').setAttribute('id', selectedChoice + 2);
+
             // Append Frame to frames
             this.frames.appendChild(frame);
         },
 
         choiceClick: function(e){
-            e.preventDefault();
+            // e.preventDefault();
 
             /**
              * Deducts 2 rows to align CSV file with the Data Sheet

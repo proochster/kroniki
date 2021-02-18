@@ -15,35 +15,6 @@ body{
     height: 100%;
 }
 
-.frames{
-    // max-width: $small;
-    width: 100%;
-    background-color: $dark;
-    z-index: 1;
-
-    .title{
-        background-color: $dark;
-        position: sticky;
-        top: 0;
-        margin: 0;
-        z-index: 2;
-        padding: $space/2 $space;
-    }
-}
-
-.frame-content{
-    img{
-        width: auto;
-        max-width: 100%;
-    }
-
-    a.choice{
-        padding: $space/2 0;
-        display: block;
-        font-size: 1.2em;
-    }
-}
-
 .wrapper{
     padding: $base-unit;
     margin: 0 auto;
@@ -131,6 +102,38 @@ body{
     &-content{
         z-index: 1;
         flex-grow: 2;
+    }
+}
+
+.story-nav{
+    background-color: $primary-colour;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: $space/2;
+    z-index: 2;
+
+    .nav-panel{
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background: $dark;
+        left: 0;
+        padding: $space;
+        z-index: -1;
+
+        &:target{
+            display: flex;
+        }
+    }
+
+    .nav-button{
+        color: $light;
+        background-color: $primary-colour;
+        border-radius: $space;
     }
 }
 
