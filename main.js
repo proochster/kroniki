@@ -28,7 +28,7 @@ var kron = (function(){
                 window.localStorage.setItem(this.dataStorageKey, JSON.stringify([0]));
 
                 // Load first frame
-                this.loadFrame(this.parsedData()[0]);
+                this.loadFrame(this.parsedData()[0], 0);
 
             } else {
 
@@ -120,6 +120,7 @@ var kron = (function(){
 
             // Append Frame to frames
             this.frames.appendChild(frame);
+
         },
 
         choiceClick: function(e){
@@ -144,7 +145,12 @@ var kron = (function(){
 
             // Scroll to element
             let scrollTo = document.getElementById(selectedFrameIndex + 2);
-            scrollTo.scrollIntoView();
+            
+            // Animate frame in
+            scrollTo.classList.add('frame-loading');
+            setTimeout(function(){
+                scrollTo.classList.remove('frame-loading');
+            },200)
         },
 
         sortClicks: function( choice ){
