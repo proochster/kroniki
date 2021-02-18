@@ -41,12 +41,12 @@ var kron = (function(){
                     
                     // Check if last choice and load with all active options
                     if( parsedState.length -1 === sIndex ){
-                        this.loadFrame(this.parsedData()[s], false);
+                        this.loadFrame(this.parsedData()[s], s, false);
                         
                     // Oterwise disable choices and set highlights on selected ones
                     } else {
                         let nextIndex = sIndex + 1;
-                        this.loadFrame(this.parsedData()[s], true, parsedState[nextIndex]);
+                        this.loadFrame(this.parsedData()[s], parsedState[nextIndex], true);
                     }
 
                 });
@@ -56,7 +56,7 @@ var kron = (function(){
             }            
         },
 
-        loadFrame: function(jsonFrame, inactive, selectedChoice){
+        loadFrame: function(jsonFrame, selectedChoice, inactive){
 
             // Load <frame-template>
             const frame = document.importNode(this.kTemplate.content, true);
@@ -103,10 +103,9 @@ var kron = (function(){
                         // Check if this was the selected choice
                         if( selectedChoice && selectedChoice === choiceIndex - 2 ){
                             
-                            // console.log('selectedChoice ' + selectedChoice + ' choiceIndex: ' + choiceIndex);
                             choiceLink.parentElement.classList.add('is-chosen');
 
-                            // Apply disabled style to the choice
+                        // Apply disabled style to the choice
                         } else if ( inactive ){
                             choiceLink.parentElement.classList.add('not-chosen');
                         }
@@ -115,7 +114,9 @@ var kron = (function(){
                         frame.querySelector('.choices').appendChild(choice);
                     }
                 }
-
+                            // Frame ID
+                            frame.querySelector('.frame-content').setAttribute('id', selectedChoice + 2);
+                            console.log(selectedChoice + 2);
             // Append Frame to frames
             this.frames.appendChild(frame);
         },
@@ -138,7 +139,11 @@ var kron = (function(){
             window.localStorage.setItem(this.dataStorageKey, JSON.stringify(currentState));
 
             // Load frame
-            this.loadFrame(this.parsedData()[selectedFrameIndex]);
+            this.loadFrame(this.parsedData()[selectedFrameIndex], selectedFrameIndex );
+
+            // Scroll to element
+            let scrollTo = document.getElementById(selectedFrameIndex + 2);
+            scrollTo.scrollIntoView();
         },
 
         sortClicks: function( choice ){
