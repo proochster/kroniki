@@ -4,8 +4,8 @@ Jechaliście do tego promu by przebyć rzekę. Została po nim tylko ucięta lin
 Jano, drugi z twoich towarzyszy, wielkolud który w waszym oddziale był za felczera wzruszył ramionami.
 - Z tym promem... nie spodziewałem, że się uda. Wokół same spalone wsie, zniszczone młyny i nie orane od wielu lat pola. Nie ma co zwlekać. Może dalej uda się znaleźć przeprawe. Ruszajmy!",Przyglądam się moim towarzyszom. ,3,Rozglądam się po okolicy.,4,,,,,,,,
 ,,,"Gawron - blada poznaczona bliznami twarz okolona brudnymi czarnymi kędziorami wystającymi spod kaptura. Chudzielec w poszarpanej, znoszonej przeszywanicy, bandyta bez czci i wiary, a przy bliższym poznaniu tylko gorzej. Łypał teraz wąskimi, ciemnymi oczyma to na uciętą linę, to na drugi brzeg rzeki powtarzając pod nosem litanię siarczystych przekleństw. Pierwszy odwrócił wierzchowca i ruszył botnistą droga w zdłuż rzeki.
-Jano uśmiechnął się. Tego potężnego spokojnego mężczyzny nic nie było w stanie wytrącić z równowagi. Sciągnął wodze, cmoknął kącikiem uśmiechniętych ust na wierzchowca po czym ruszył za Gawronem.",Nic tu po nas. Ruszam za Jano i Gawronem,5,Rozglądam się po okolicy.,4,,,,,,,,
-,,,"Brunatne plamy krajobrazu wyłaniają się spod topniejącego śniegu. Po lewej Beck, szeroka na rzut kamieniem rzeka w kolorze oblężniczej smoły z wolna niesie poszarpane tafle lodu. Po prawej, rozjeżdżona droga wijąca się wśród ośnieżonych krzaków i wyschniętych traw wystawiających czupryny do późno-zimowego, popołudniwego słońca. Dalej wzbija się stromo zalesiona skarpa ukoronowana szeregiem bezlistnych drzew. Przyglądasz się mocowaniu promu - lina jest przecięta równo - jak wszystko co mijaliście przez ostatnie tygodnie i to zostało zniszczone ręką człowieka. Twoi towarzysze ruszyli jeden za drugim prowadząc konie drogą.",Popędzam konia.,5,,,,,,,,,,
+Jano uśmiechnął się. Tego potężnego spokojnego mężczyzny nic nie było w stanie wytrącić z równowagi. Sciągnął wodze, cmoknął kącikiem uśmiechniętych ust na wierzchowca po czym ruszył za Gawronem.",Nic tu po nas. Ruszam za Jano i Gawronem.,5,,,,,,,,,,
+,,,"Brunatne plamy krajobrazu wyłaniają się spod topniejącego śniegu. Po lewej Beck, szeroka na 20 metrów rzeka w kolorze oblężniczej smoły z wolna niesie poszarpane tafle lodu. Po prawej, rozjeżdżona droga wijąca się wśród ośnieżonych krzaków i wyschniętych traw wystawiających czupryny na lekkie muśnięcia cieplejszego wiatru ze wschodu. Dalej, stromo wzbijająca się piaszczysta skarpa ukoronowana szeregiem bezlistnych drzew. Biżej ciebie, przyglądasz się mocowaniu promu - lina jest przecięta równo - jak wszystko co mijaliście przez ostatnie tygodnie i to zostało zniszczone ręką człowieka. Twoi towarzysze ruszyli jeden za drugim prowadząc konie drogą.",Popędzam konia.,5,,,,,,,,,,
 ,,soldier.jpg,"Jedziecie znów jakiś czas w milczeniu, konie człapią w roztapiającym się śniegu.
 Mijacie naniesioną tu ongiś przez wodę stertę drzew i krzaki. Gawron ostrzegawczo strzela palcami. ",Rozglądasz się.,6,Patrzysz przed siebie. ,7,,,,,,,,
 ,,,"Okolica wydaje się cicha. Za wami nikt nie jedzie. Może i nie jesteście na wojnie ale oczy dookoła głowy przydają się zawsze. Gawron skinął lekko głową pochwalając tym samym twoją ostrożność, pokazuje żeby jechać dalej.",Popędzam konia.,7,,,,,,,,,,
@@ -45,13 +45,13 @@ Jesteście coraz bliżej. Zbrojnych jest sześciu nie wyglądają na regularny o
 
 - Gorszych ze świecą szukać - dopowiada Jano. Jedzie chwilę cały czas patrząc na oddział który minęliście. 
 - Nie powinniśmy tych siostrzyczek zostawiać samych na pustej drodze. ","Same chciały, jedzmy dalej.",17,Masz racje zawrócmy. ,18,,,,,,,,
-,,,"Droga skęca lekko ku skarpie po prawej. Rzeka cały czas jest po lewej ale oddalacie się od niej . Powoli dojerzdzacie do lasu. Drzewa bez liści sprawiają smutne wrażenie panuje cisza słychać tylko wolne monotonne człapanie koni. W oddali gdzieś za Wami słyszysz odgłos strzału. Spłoszone ptaki zrywają się z krakaniem i zaczynają krążyć nad okolicą. Wszyscy trzej odwracacie głowy. - Co nas to obchodzi - odzywa się Gawron - Nie nasza sprawa, jedzmy do karczmy jestem już zmęczony.","Racja, do jedzmy do Wurzen.",52,Zawracasz w kierunku odgłosu strzału!,18,,,,,,,,
+,,,"Droga skęca lekko ku skarpie po prawej. Rzeka cały czas jest po lewej ale oddalacie się od niej . Powoli dojerzdzacie do lasu. Drzewa bez liści sprawiają smutne wrażenie panuje cisza słychać tylko wolne monotonne człapanie koni. W oddali gdzieś za Wami słyszysz odgłos strzału. Spłoszone ptaki zrywają się z krakaniem i zaczynają krążyć nad okolicą. Wszyscy trzej odwracacie głowy. - Co nas to obchodzi - odzywa się Gawron - Nie nasza sprawa, jedzmy do karczmy jestem już zmęczony.","Racja, do jedzmy do Wurzen.",54,Zawracasz w kierunku odgłosu strzału!,18,,,,,,,,
 ,,,"Zawracacie konie i kłusem jedziecie w kierunku, z którego słyszeliście strzał i gdzie zostawiliście mniszki. Kiedy jesteście bliżej słychać kobiecy krzyk.
 Popędzasz konia do galopu, błoto i śnieg pryskają spod kopyt twojego wierzchowca. Obaj towarzysze wyjęli broń i galopują za tobą. Gawron klnie siarczyście.
 Kiedy docieracie do wozu widzicie jedną z kobiet leżąca bez przytomności a drugą szarpaną przez jednego z oprychów. Reszta otacza wóz.",Wjerzdzasz w zbrojnych.,19,Krzyczę - Puść ją! ,20,,,,,,,,
 ,,,Stratowałeś jednego z obwiesi i miałeś już ciąć drugiego kiedy widzisz że Jano huknął go po łbie mieczem. Kiedy zawracasz konia widzisz że trzech z bandytów leży a reszta ucieka przez wysokie krzaki w stronę skarpy.,Zawracasz konia i gonisz bandytów uciekających ku skarpie. ,26,Zostajesz przy wozie.,42,,,,,,,,
 ,,,My ludzie od Czarnego - pana na tych ziemiach i burmistrza Wurzen. To one złamały prawo!,Milcz psie! Na nich!,19,"Gówno mnie to obchodzi. Masz ją puścić, bo posmakujesz żelaza. ",21,,,,,,,,
-,,,- Wszystko w okolicy nalerzy do Czarnego - One same szukały rzywności! Czarny nie może nam tego zakazac odezwala się zakonnica. Jak chcecie - hersz daje znak bandzie i odchodzą w kierunku skarpy. Zostajecie sami z pobitymi kobietami.,Rozglądasz się.,42,,,,,,,,,,
+,,,- Wszystko w okolicy nalerzy do Czarnego - A one same szukały rzywności! -Czarny nie może nam tego zakazać odezwala się zakonnica. Powiemy o tym Czarnemu - herszt daje znak bandzie i odchodzą w kierunku skarpy. Zostajecie sami z pobitymi kobietami.,Rozglądasz się.,45,,,,,,,,,,
 ,,,Próbowałeś odjechać ale wtedy poczułes bul w plecach zgiołeś się i spadłeś z konia próbowałeś odczołgać ale kilka sztychów włuczni w twoje wyprężone plecy dokonało dzieła.,,,,,,,,,,,,
 ,,,Nie miał szans cofnąć włóczni gdy naparłes na niego wierzchowcem i rąbnołeś od góry zasłonił się ręką ale drugi cios roztrzaskał mu głowę. Zginłą szybko widzisz jak jego ciało drga a potem nieruchomieje na ziemi. ,Wracasz.,41,,,,,,,,,,
 ,,,Uderzył ale jego cios zatrzymał się na twojej klindze i zjechał aż do jelca pchnąłeś z siłą i poczułeś jak miecz wbija się w jego pierś. Włócznik zaatakował znienacka ledwo odbiłeś jego włócznie.,Wjerzdzasz na niego koniem,23,Prubujesz oddalić się żeby zaatakowac ponownie,22,,,,,,,,
@@ -73,15 +73,45 @@ Kiedy docieracie do wozu widzicie jedną z kobiet leżąca bez przytomności a d
 ,,,Wyskakujesz do niego z boku - tego się nie spodziewał. Przy pierwszym dźgnięciu skulił się wypuszczając broń i osuwając się na kolana. Następny cios prawie odrąbuje mu odsłonięty kark. Drugi próbuje cię zajść ale w tym momencie orientuje się że został sam. Zatrzymał się z wahaniem. ,Uderzasz,36,Dajesz mu uciec,35,,,,,,,,
 ,,,Parujesz uderzenie a drugą ręką chwytasz włócznie i ciągniesz do siebie. Przeciwnik się tego nie spodziewa i traci równowagę a ty rombiesz go w czoło. Na ziemi upada już martwy na twojej broni zostaje jego mózg i krew. Drugi z przeciwników krzyczy i ucieka. ,Gonisz go,44,Wracasz,41,,,,,,,,
 ,,,Wracasz do wozu prowadząc konia. Machasz towarzyszom. Jano kiwa głową.,Zatrzymujesz się przy wozie,42,,,,,,,,,,
-,,,Kobiety wspólnie zbierają się z ziemi są przerażone i roztrzęsione.,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
+,,,"Młodsza patrzy z lękiem na trupy i krew na gościńcu. Trzyma się przy wozie. Starsza zaczęła sprawdzać czy któryś przeżył.
+Gawron schylił się by przeszukać najbliższego trupa.
+-Zostaw to biedaki, tylko się ubrudzisz  - Jano rozgląda się po okolicy - Lepiej zbierajmy się z tej drogi.
+Gawron wzdycha przeciągle ale zostawia trupy tam gdzie były. 
+",Pochowajmy ich. ,43,Trzeba się zbierać.,45,,,,,,,,
+,,,- Ziemia jeszcze zmarznięta - nic tu po nas odzywa się Gawron.,Zbierajmy się ,45,,,,,,,,,,
 ,,,"Jeszcze chwilę ale najwidoczniej lepiej zna teren po chwili znika ci i słyszysz tylko jak się oddala.
 Zostałeś sam. Chwilę szukałeś konia a potem... ",Wróciłeś do wozu,42,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,
-,,,"Dojerzdżacie do rozstajów w lesie. Droga w lewo prowadzi do Wurzen, a w prawo do klasztoru.",,,,,,,,,,,,
+,,,"Młodsza kobieta wydaje się przestraszona. Starsza otrzepuje sie z błota i ze śniegu. Patrzy na was spokojnie. 
+-Źle was oceniłam. -Dziękujemy, nie wiem co ludzie Czarnego by z nami zrobili gdyby nie wy. ",Kim jest Czarny?,46,Co tu robicie?,47,,,,,,,,
+,,,"Czarny rządzi w Wurzen - w czasie wojny zebrał kupę zbrojnych i maruderów. Mężczyzn nie ma więc nikt nie sprzeciwił się jego władzy. Jego ludzie zbierają resztki żywności po najbliższej okolicy bo głód. Uważa że wszystko w okolicy należy do niego … prawem silniejszego. Przynajmniej na tym brzegu rzeki. Musimy stąd jechać.
+
+",Macie matko rację.,48,,,,,,,,,,
+,,," Chciałyśmy trochę jedzenia do klasztoru przywieść. Wiele mamy gęba do wykarmienia a Czarny i jego ludzie wszystko zagarniają dla siebie żeby mieć władzę nad tymi co głodują. Na wozie jest trochę zboża i jabłek co się udało nam w spalonej wsi nieopodal znaleźć. Musimy wracać do klasztoru. Lepiej się nie kręcić przy rzece po zmroku. 
+
+",Pewnie tak.,48,,,,,,,,,,
+,,,"
+-Bez wozu daleko nie pociągniecie. Dalej pomóż mi - mruknął Jano. 
+Złapał się za dolną krawędź i wraz z Gawronem  podnieśli wóz. Po chwili koło było już na miejscu wbiliście klin i dwukółka znów mogła jechać. Gawron kopnął jeszcze kilka razy w koło. Mruknął coś pod nosem o tandecie i siadł na konia. 
+
+Jedźcie z nami do klasztoru - Czarny nie zostawi was w spokoju A tu okolica też nie dobra - Obie kobiety popatrzyły z widocznym strachem na drugi brzeg rzeki. Załadowały się na wóz i ruszyły. Wsiedliście na konie i zdążyliście za nimi.
+",Patrzysz na drugi brzeg rzeki.,49,Przyglądasz się kobietom.,50,Patrzysz na to co wiozą na wozie.,51,,,,,,
+,,,Odległy brzeg wydaje się martwy. Widzisz go przez lekko zamglone powietrze.  Nie widać na nim łodzi rybackich ani dymów świadczących o tym że ktoś tam mieszka. Las po drugiej stronie  wydaje się cichy i zarazem pusty. ,Wzdrygasz się i dajesz koniu piętami.,53,,,,,,,,,,
+,,," Starsza z sióstr powozi - jej twarz jest pobrużdżona zmarszczkami ogorzała i lekko zarumieniona od mrozu patrzy przed siebie z wyrazem determinacji. Lejce trzyma krzepko. Młodsza kiedy widzi że się jej przyglądasz odwraca spłoszona wzrok. Chyba nie przywykła do towarzystwa zbrojnych mężczyzn.
+
+",Opuszczasz wzrok.,53,,,,,,,,,,
+,,,"Dwukółka podskakuje na wyboistej drodze. Jest tam kilka worków  - wygląda na to że wiozą ziarno na mąkę i jabłka. 
+
+
+-Sprawdźcie panie rzołnierzu - niczego nie ukrywamy jabłka i ziarno. Starsza wyczuła chyba twój wzrok. 
+",Wzruszasz ramionami.,53,Dźgasz mieczem worek.,52,,,,,,,,
+,,,"Z worka wysypuje się ziarno - młodsza z zakonnic próbuje bezskutecznie złapać wylatujące ziarno i patrzy na ciebie ze złością.  
+-Lepsze to niż jak byśmy nic nie dowiozły - odzywa się starsza.
+",Chowasz miecz.,53,,,,,,,,,,
+,,,"Droga skręca lekko ku skarpie po prawej. Rzeka cały czas jest po lewej ale oddalacie się od niej. Powoli dojeżdżacie do lasu. Drzewa bez liści sprawiają smutne wrażenie panuje cisza słychać tylko wolne monotonne człapanie kon i skrzyp wozu. Jeszcze chwile jedziecie przez bukowy las pogrążony w ciszy i  śniegu. Aż docieracie do rozstajów. Na środku stoi stary pochylony drogowskaz. Jedna z dróg ta w lewo biegnie dalej wzdłuż rzeki i prowadzi do Wurzen. Droga w prawo prowadzi w kierunku skarpy a potem do klasztoru. 
+-Jedźcie z nami do klasztoru - W Wurzen nie będziecie dobrze przyjęci. 
+",Nie boimy się Czarnego - jedźmy do Wurzen.,56,Może to i racja - jedźmy do Klasztoru.,58,,,,,,,,
+,,,Jeszcze chwile jedziecie przez bukowy las pogrążony w ciszy i  śniegu. Aż docieracie do rozstajów. Na środku stoi stary pochylony drogowskaz. Jedna z dróg ta w lewo biegnie dalej wzdłuż rzeki i prowadzi do Wurzen. Droga w prawo prowadzi w kierunku skarpy a potem do klasztoru. ,Skręcacie w lewo - do Wurzen,55,Skręcacie w prawo - do klasztoru.,57,,,,,,,,
+,,,Skręcili do Wurzen/nie było rozlewu krwi.,,,,,,,,,,,,
+,,,Skręcili do Wurzen/było mordobicie.,,,,,,,,,,,,
+,,,Klasztor/nie było rozlewu krwi.,,,,,,,,,,,,
+,,,Klasztor/był rozlew krwi.,,,,,,,,,,,,
