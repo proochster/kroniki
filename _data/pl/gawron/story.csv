@@ -14,8 +14,8 @@ Jano uśmiechnął się. Tego potężnego spokojnego mężczyzny nic nie było w
 Kiedy podjeżdżacie bliżej Jano woła:
 - Hej! Może pomóc?
 Jedna z kobiet wychyliła się z nad wozu. W ręku trzyma rusznicę celując w waszą stronę. Druga, młodsza, równierz chowając się za wozem, zaciska obie dłonie na trzonku prostej siekiery.
-- Nie trzeba nam waszej pomocy! - krzyknęła właścicielka rusznicy - jedzcie swoją drogą i zostawcie nas w spokoju! Głos jej drży ale gotowa do strzału rusznica oparta o burtę wygląda poważnie.",Nie zważąjąc na ostrzeżenia podjeżdżam do kobiet. ,9,Zatrzymuję konia w bezpiecznej odległosci.,10,,,,,,,,
-,,,"Strzał i chmura dymu, krzyk, uderzenie i skręcający zatykający ból, ostatnią rzeczą którą rejestrujesz jest uderzenie o śnieg, potem ból zamienia się w ciemność. Umierasz. ",,,,,,,,,,,,
+- Nie trzeba nam waszej pomocy! - krzyknęła trzymająca rusznicy - jedzcie swoją drogą i zostawcie nas w spokoju! Głos jej drży ale gotowa do strzału rusznica oparta o burtę wygląda poważnie.",Zatrzymuję konia w bezpiecznej odległosci.,10,Nie zważąjąc na ostrzeżenie podjeżdżam do kobiet. ,9,,,,,,,,
+,,,"Wystrzał, chmura siwego dymu i krzyk. Głuche uderzenie i skręcający, zatykający ból w piersi. Ostatnią rzeczą którą rejestrujesz jest uderzenie o śnieg, potem ból zamienia się w ciemność. Umierasz. ",,,,,,,,,,,,
 ,,,"Cała trójka zatrzymała się. Gawron podniósł ręce z dala od ciała. Jano odwrócił konia bokiem. Zrobiło się cicho.   
 
 - Nie mamy złych zamiarów, możemy Wam pomóc.
@@ -97,7 +97,7 @@ Jedźcie z nami do klasztoru - Czarny nie zostawi was w spokoju A tu okolica te�
 ",Chowasz miecz.,53,,,,,,,,,,
 ,,,"Droga skręca lekko ku skarpie po prawej. Rzeka cały czas jest po lewej ale oddalacie się od niej. Powoli dojeżdżacie do lasu. Drzewa bez liści sprawiają smutne wrażenie panuje cisza słychać tylko wolne monotonne człapanie kon i skrzyp wozu. Jeszcze chwile jedziecie przez bukowy las pogrążony w ciszy i  śniegu. Aż docieracie do rozstajów. Na środku stoi stary pochylony drogowskaz. Jedna z dróg ta w lewo biegnie dalej wzdłuż rzeki i prowadzi do Wurzen. Droga w prawo prowadzi w kierunku skarpy a potem do klasztoru. 
 - Jedźcie z nami do klasztoru - W Wurzen nie będziecie dobrze przyjęci. ",Nie boimy się Czarnego - jedźmy do Wurzen.,56,Może to i racja - jedźmy do Klasztoru.,58,,,,,,,,
-,,,Jeszcze chwile jedziecie przez bukowy las pogrążony w ciszy i  śniegu. Aż docieracie do rozstajów. Na środku stoi stary pochylony drogowskaz. Jedna z dróg ta w lewo biegnie dalej wzdłuż rzeki i prowadzi do Wurzen. Droga w prawo prowadzi w kierunku skarpy a potem do klasztoru. ,Skręcacie w lewo - do Wurzen,55,Skręcacie w prawo - do klasztoru.,57,,,,,,,,
+,,,Jeszcze chwile jedziecie przez bukowy las pogrążony w ciszy i śniegu. Aż docieracie do rozstajów. Na środku stoi stary pochylony drogowskaz. Jedna z dróg ta w lewo biegnie dalej wzdłuż rzeki i prowadzi do Wurzen. Droga w prawo prowadzi w kierunku skarpy a potem do klasztoru. ,Skręcacie w lewo - do Wurzen,55,Skręcacie w prawo - do klasztoru.,57,,,,,,,,
 ,,,Skręcili do Wurzen/nie było rozlewu krwi.,,,,,,,,,,,,
 ,,,Skręcili do Wurzen/było mordobicie.,,,,,,,,,,,,
 ,,,Klasztor/nie było rozlewu krwi.,,,,,,,,,,,,
