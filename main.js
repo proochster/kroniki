@@ -131,26 +131,35 @@ var kron = (function(){
              * Document starts on row 2 and parsed data starts with index 0
              */
             selectedFrameIndex = e.target.getAttribute('data-choice') - 2;
+        
+            // Check if the character has died
+            if( selectedFrameIndex == -2) {
+                console.log('death');
+                this.backToStart();
+            } else {
 
-            // Update state of Choices
-            this.sortClicks(e.target);
+                // Update state of Choices
+                this.sortClicks(e.target);
+    
+                // Save Choice to local storage
+                let currentState = JSON.parse(window.localStorage.getItem(this.dataStorageKey));
+                currentState.push(selectedFrameIndex);
+                window.localStorage.setItem(this.dataStorageKey, JSON.stringify(currentState));
+    
+                // Load frame
+                this.loadFrame(this.parsedData()[selectedFrameIndex], selectedFrameIndex );
+    
+                // Scroll to element
+                let scrollTo = document.getElementById(selectedFrameIndex + 2);
+                
+                // Animate frame in
+                scrollTo.classList.add('frame-loading');
+                setTimeout(function(){
+                    scrollTo.classList.remove('frame-loading');
+                },200)
 
-            // Save Choice to local storage
-            let currentState = JSON.parse(window.localStorage.getItem(this.dataStorageKey));
-            currentState.push(selectedFrameIndex);
-            window.localStorage.setItem(this.dataStorageKey, JSON.stringify(currentState));
+            }
 
-            // Load frame
-            this.loadFrame(this.parsedData()[selectedFrameIndex], selectedFrameIndex );
-
-            // Scroll to element
-            let scrollTo = document.getElementById(selectedFrameIndex + 2);
-            
-            // Animate frame in
-            scrollTo.classList.add('frame-loading');
-            setTimeout(function(){
-                scrollTo.classList.remove('frame-loading');
-            },200)
         },
 
         sortClicks: function( choice ){
@@ -173,9 +182,13 @@ var kron = (function(){
         clearChoices: function(){
             k.devClear.addEventListener('click', () => {
                 console.log('Clearing choices for ' +  this.dataStorageKey);                
-                window.localStorage.clear(this.dataStorageKey);
-                location.reload();
+                k.backToStart();
             });
+        },
+
+        backToStart: function(){
+            window.localStorage.clear(this.dataStorageKey);
+            location.reload();
         },
 
         init: function(){
