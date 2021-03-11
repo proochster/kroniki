@@ -73,7 +73,7 @@ var kron = (function(){
                 if( jsonFrame.title ){
                     let titleElement = document.createElement('h2');
                     titleElement.classList.add('title');
-                    titleElement.innerHTML = jsonFrame.title;
+                    titleElement.innerHTML = jsonFrame.chapter + ". " + jsonFrame.title;
                     frame.prepend(titleElement);
                 }
 
