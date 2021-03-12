@@ -64,7 +64,7 @@ var kron = (function(){
                 // Image 
                 if( jsonFrame.image ){
                     let pictureElement = document.createElement('picture');
-                    pictureElement.setAttribute('class', 'edges' );
+                    // pictureElement.setAttribute('class', 'edges' );
 
                     let imageElement = document.createElement('img');
                     imageElement.setAttribute('alt', jsonFrame.image );
