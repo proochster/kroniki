@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404/index.html",
-    "revision": "d1cf583c84855a3a7903f2a0820b5206"
+    "revision": "7c1c10e86d60bd50b4cb7e2532bb0cc6"
   },
   {
     "url": "assets/stories/gawron/companions.jpeg",
@@ -111,11 +111,11 @@ self.__precacheManifest = [
   },
   {
     "url": "feed.xml",
-    "revision": "a10c358cce54338b05b14c8e8491b121"
+    "revision": "d66f8be56c701be77e3327886d70948d"
   },
   {
     "url": "index.html",
-    "revision": "ce32d4272527e2d80973bd85a2e89fcf"
+    "revision": "4f84043721b06d9fbf72e4b284a9c5f8"
   },
   {
     "url": "main.js",
@@ -131,7 +131,7 @@ self.__precacheManifest = [
   },
   {
     "url": "stories/pl/gawron/index.html",
-    "revision": "b582026b6315c7dc0abe9bae73aa775a"
+    "revision": "1d64c42a6892f80c4ab92664bc7d9bfa"
   },
   {
     "url": "workbox-config.js",

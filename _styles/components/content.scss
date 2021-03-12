@@ -4,9 +4,8 @@
 
 .choices{
 
-    margin-bottom: 0;
+    margin-left: 20px;
     padding: 0;
-    list-style-position: inside;
 
     &--item{
 
@@ -18,6 +17,7 @@
         &.is-chosen{
             
             pointer-events: none;
+            opacity: .8;
 
             a{
                 color: $grey-dark;
@@ -90,6 +90,7 @@
     a.choice{
         padding: $space/2 0;
         font-size: 1.2em;
+        display: block;
     }
 
     picture{
