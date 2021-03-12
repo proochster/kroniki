@@ -7,7 +7,7 @@
         {% include header.html %}
         {% for image in site.static_files %}{% capture story_cover %}assets/stories/{{ page.slug }}/cover{% endcapture %}
             {% if image.path contains story_cover %}
-            <picture>
+            <picture class="cover">
                 <img src="{{site.url}}{{ image.path }}" alt="">
             </picture>
             {% endif %}

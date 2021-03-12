@@ -63,10 +63,17 @@ var kron = (function(){
 
                 // Image 
                 if( jsonFrame.image ){
+                    let pictureElement = document.createElement('picture');
+                    pictureElement.setAttribute('class', 'edges' );
+
                     let imageElement = document.createElement('img');
                     imageElement.setAttribute('alt', jsonFrame.image );
                     imageElement.setAttribute('src', '../../../assets/stories/' + this.storySlug + '/' + jsonFrame.image );
-                    frame.querySelector('.frame-content').prepend(imageElement);
+
+                    // Append image inside of the picture element
+                    pictureElement.appendChild(imageElement);
+                    
+                    frame.querySelector('.frame-content').prepend(pictureElement);
                 }
 
                 // Load Title and Copy to the frame

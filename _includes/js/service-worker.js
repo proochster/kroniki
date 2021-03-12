@@ -107,11 +107,11 @@ self.__precacheManifest = [
   },
   {
     "url": "feed.xml",
-    "revision": "80ef43cfcce1b9e4615586e42475ff2f"
+    "revision": "b9428efa734d3a2d714480b5e961f467"
   },
   {
     "url": "main.js",
-    "revision": "366e87b07ee6495e368b924139dba642"
+    "revision": "29b3f2085c1db057ef342226749f6372"
   },
   {
     "url": "manifest.json",

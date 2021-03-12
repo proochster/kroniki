@@ -32,6 +32,7 @@
     background-color: $dark;
     z-index: 1;
     padding-top: 2rem;
+    position: relative;
 
     .title{
         background-color: $dark;
@@ -40,6 +41,33 @@
         margin: 0;
         z-index: 2;
         padding: $space/2 $space;
+
+        &:after{
+            content: "";
+            width: 100%;
+            height: 20px;
+            display: block;
+            position: absolute;
+            bottom: -10px;
+            background-image: url(/assets/theme/edge.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            left: 0;
+        }
+    }
+
+    &:before{
+        content: "";
+        width: 100%;
+        height: 20px;
+        display: block;
+        position: absolute;
+        top: -10px;
+        background-image: url('/assets/theme/edge.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
     }
 }
 
@@ -52,17 +80,53 @@
         
     &.frame-loading{
         opacity: .1;
-    }
-    
+    }    
 
     img{
         width: auto;
         max-width: 100%;
-        padding-top: $space;
     }
 
     a.choice{
         padding: $space/2 0;
         font-size: 1.2em;
     }
+
+    picture{
+        margin: 1rem 0;
+    }
+
+    // picture + .copy::first-letter {
+        // initial-letter: 2;
+    // picture + .copy {
+    //     background: red
+    //   }
 }
+
+.edges{
+
+    position: relative;
+    display: block;
+
+    &:before, &:after{
+        content: "";
+        width: 100%;
+        height: 20px;
+        display: block;
+        position: absolute;
+        background-image: url('/assets/theme/edge.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    &:before{
+        top: -10px;
+        background-position: bottom;
+    }
+
+    &:after{
+        bottom: -4px;
+        background-position: top;
+    }
+}
+
