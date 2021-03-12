@@ -26,6 +26,10 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
+    "url": "404/index.html",
+    "revision": "8cd104f19c5d80072c63765ea8a9a09a"
+  },
+  {
     "url": "assets/stories/gawron/companions.jpeg",
     "revision": "7f102b17231f7cd3cfd86caa9726f045"
   },
@@ -107,7 +111,11 @@ self.__precacheManifest = [
   },
   {
     "url": "feed.xml",
-    "revision": "b9428efa734d3a2d714480b5e961f467"
+    "revision": "9b3887e20c71f81c7740d1223668c3c3"
+  },
+  {
+    "url": "index.html",
+    "revision": "63ff2abf6f7b91c5bbe75a6bad71d1bc"
   },
   {
     "url": "main.js",
@@ -122,8 +130,12 @@ self.__precacheManifest = [
     "revision": "d6bfd272519e998587713818a4a1f763"
   },
   {
+    "url": "stories/pl/gawron/index.html",
+    "revision": "f95990e8fe380a46c9a9fedde543dbe2"
+  },
+  {
     "url": "workbox-config.js",
-    "revision": "710e44dd2cc9f6e07ce16661e535daeb"
+    "revision": "446cb19f38953b68905391fc5e257fbe"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
