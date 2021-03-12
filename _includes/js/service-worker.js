@@ -111,7 +111,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feed.xml",
-    "revision": "d66f8be56c701be77e3327886d70948d"
+    "revision": "37f585c0cc37766ff1e1263cfebd3d29"
   },
   {
     "url": "index.html",
@@ -131,7 +131,7 @@ self.__precacheManifest = [
   },
   {
     "url": "stories/pl/gawron/index.html",
-    "revision": "1d64c42a6892f80c4ab92664bc7d9bfa"
+    "revision": "b221eb2c30a464242369e56a278f7bd0"
   },
   {
     "url": "workbox-config.js",
