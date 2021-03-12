@@ -26,12 +26,16 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
+    "url": "assets/stories/gawron/companions.jpeg",
+    "revision": "7f102b17231f7cd3cfd86caa9726f045"
+  },
+  {
     "url": "assets/stories/gawron/cover.jpeg",
     "revision": "9dc4eecbcdb0d3eb4e9a008e503a9267"
   },
   {
-    "url": "assets/stories/gawron/soldier.jpg",
-    "revision": "0fe2b9602542abd50facc7bbf9c69cac"
+    "url": "assets/stories/gawron/jano.jpeg",
+    "revision": "4ae1d745297c86c69c9f9c5e1fd47ba4"
   },
   {
     "url": "assets/theme/icons/kroniki-icon-114x114.png",
@@ -103,11 +107,11 @@ self.__precacheManifest = [
   },
   {
     "url": "feed.xml",
-    "revision": "63bf045d9702b3a11dd8ecf6bf7486b8"
+    "revision": "80ef43cfcce1b9e4615586e42475ff2f"
   },
   {
     "url": "main.js",
-    "revision": "ab61f740a2806c87c88f934a6506e6d3"
+    "revision": "366e87b07ee6495e368b924139dba642"
   },
   {
     "url": "manifest.json",
