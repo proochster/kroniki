@@ -174,10 +174,39 @@ Tak zróbmy
 Pukanie do drzwi. 
 
 ",Otwierasz.,67,,,,,,,,,,
-,,,"Budzi cię pukanie do drzwi jest środek nocy leżysz w ciemności. Nie widzisz swoich kompanów ale słyszysz że nie chrapią.  
+,,,"Nie wiesz ile spałeś. Budzi cię pukanie do drzwi jest jeszcze noc leżysz w ciemności. Nie widzisz swoich kompanów ale słyszysz że nie chrapią.  
 
 Potykając się w ciemnościach dochodzisz po omacku do drzwi i chwile szukasz zasuwki. 
 
 ",Otwierasz.,67,,,,,,,,,,
 ,,,Posłaniec prowadzi na rozmowę z przeoryszą i Komesem,,,,,,,,,,,,
-,,,"Opis klasztoru noca, rozmowa w której dostajesz informacje co dzieje się za rzeką",,,,,,,,,,,,
+,,,"Cicho zamykasz drzwi. Mroźny wiatr przegonił chmury, wirydarz rozświetla światło księżyca. Jesteś na pierwszym piętrze.  W klasztorze jest cicho. Balustrada ciągnie się na około wirydarza. Opierasz się o nią przez chwilę oddychasz świeżym mroźnym powietrzem a potem słyszysz zbliżające się kroki. 
+",Chowasz się do pokoju. ,69,Zostajesz.,72,,,,,,,,
+,,,"Słyszysz że kroki zbliżają się w stronę waszego pokoju. W ciemności słyszysz że ktoś kto idzie próbuje otworzyć każde napotkane drzwi. Podchodzi także do waszego pokoju tu kroki urywają się. Po chwili zaczynają oddalać.
+
+
+",Wracasz do łużka - koniec przygód na dzisiaj.,66,Cicho wyglądasz.,70,,,,,,,,
+,,,"Widzisz sylwetkę jakiś człowiek - orientujesz się że to starzec który otwierał wam bramę.Jest do ciebie tyłem ale orientujesz się że trzyma kusze. Podchodzi do kolejnych drzwi i łapie za klamkę. Potem idzie dalej.
+",Cicho zamykasz drzwi i idziesz spać.,66,"Hej, co o tu robisz? ",71,,,,,,,,
+,,,"Starzec odwraca się do ciebie. Opuszcza kusze kiedy widzi że to ty. Na Jedynego gdybyś się nie odezwał to bym mógł cię bełtem z kuszy potraktować. 
+- Mróz, może Beck zamarzł - wykonuje gest w stronę rzeki. Sprawdzam czy wszystko dobrze zamknięte - kto wie, to znów przejdzie  przez rzekę jeśli ta zamarznie. Noce są niebezpieczne lepiej siedzieć w zamknięciu. 
+
+-Co ma przeleźć? 
+
+To nie wiecie? Na drugą stronę rzeki nikt się nie zapuszcza - tam coś jest jakieś licho, a nocą jak rzeka zamarza to i tu podchodziło. Kilku ludzi rozerwało. 
+
+
+",Słyszysz odgłos rogu.,74,,,,,Trzeba wrócić do wczesniejszych miejsc i dac więcej wskazówek że za rzeką jest coś nie halo.,,,,,
+,,,"Widzisz z korytarza po prawej wyłania się postać. Patrzysz na nią i rozpoznajesz w niej starca z pod bramy. Wydaje ci się że widzisz w jego rękach kusze.  Kolejno naciska klamki w dzwiach, jak by sprawdzał czy są zamknięte. 
+W pewnym momencie zastyga - słyszysz jego drżący głos:
+-Kto tam? 
+",Nie odzywasz się. ,73,"Hej, dziadku to tylko ja. ",71,,,,,,,,
+,,,"Dźwięk obracającego się orzecha kuszy zlewa się w jedno z falą bólu promieniującego z trzewi, przeszywa cię tak mocno że kulisz się. Ktoś krzyczy.Chyba nie jest tak źle, bardzo boli, próbujesz wstać ale ręce ślizgają się na mokrej posadzce. Niezgrabnie próbujesz jeszcze raz ale nie masz siły. Nadchodzi ciemność.",,,,,,,,,,,,
+,,, -Psia mać klnie starzec - to komes - późno w gości się wybrał - lepiej obudź towarzyszy.  Pójdę po przeoryszę. Odwrócił się i pokuśtykał z powrotem.,Wpadam do komnaty.,75,,,,,,,,,,
+,,,"
+W pokoju ciemno - ale twoi towarzysze chyba nie śpią.
+-Co się dzieje? - pyta lekko zaspany Jano.
+-Komes przyjechał w gościne. 
+-Zbierajmy się stąd - mruczy Gawron - jeszcze nam tego chuja brakowało. 
+Zbieracie w ciemnościach sprzęt gdy słyszycie pukanie do drzwi.
+",Otwieram.,67,,,,,,,,,,
