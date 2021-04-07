@@ -183,7 +183,14 @@ Pukanie do drzwi.
 Potykając się w ciemnościach dochodzisz po omacku do drzwi i chwile szukasz zasuwki. 
 
 ",Otwierasz.,67,,,,,,,,,,
-,,,Posłaniec prowadzi na rozmowę z przeoryszą i Komesem,,,,,,,,,,,,
+,,,"Za drzwiami stoi jedna z sióstr. W ręce trzyma lampę która rozświetla mrok wirydarza. 
+
+- Witajcie panie. Późna pora ale przeorysza chce was widzieć. To pilna sprawa. Pójdźcie za mną.
+Patrzycie po sobie. Jano pokazuje żebyś szedł a Gawron z rezygnacja macha ręką.
+Idziecie przez wirydarz potem po schodach do południowej części klasztoru. Siostra idzie przed wami. Oświetla drogę i prowadzi w końcu docieracie do drzwi. Zakonnica puka. Słychać krótką komendę: 
+-Wejść. 
+Zakonnica otwiera wam drzwi ale sama nie wchodzi.
+",Wchodzisz.,77,Zatrzymujesz się przed wejściem.,76,,,,,,,,
 ,,,"Cicho zamykasz drzwi. Mroźny wiatr przegonił chmury, wirydarz rozświetla światło księżyca. Jesteś na pierwszym piętrze.  W klasztorze jest cicho. Balustrada ciągnie się na około wirydarza. Opierasz się o nią przez chwilę oddychasz świeżym mroźnym powietrzem a potem słyszysz zbliżające się kroki. 
 ",Chowasz się do pokoju. ,69,Zostajesz.,72,,,,,,,,
 ,,,"Słyszysz że kroki zbliżają się w stronę waszego pokoju. W ciemności słyszysz że ktoś kto idzie próbuje otworzyć każde napotkane drzwi. Podchodzi także do waszego pokoju tu kroki urywają się. Po chwili zaczynają oddalać.
@@ -214,3 +221,24 @@ W pokoju ciemno - ale twoi towarzysze chyba nie śpią.
 -Zbierajmy się stąd - mruczy Gawron - jeszcze nam tego chuja brakowało. 
 Zbieracie w ciemnościach sprzęt gdy słyszycie pukanie do drzwi.
 ",Otwieram.,67,,,,,,,,,,
+,,,Gawron pcha Cię naprzód. Mrucząc coś o chędożonych cipach tarasujących drogę.,Wchodzę,77,,,,,,,,,,
+,,,"Nieduży kapitularz oświetla kilka świec stojących na stole pośrodku pomieszczenia. 
+Na centralnym miejscu za stołem siedzi Przeorysza, po lewej stronie Stołu znajduje się dwóch mężczyzn. Pierwszy czarnobrody mężczyzna w bogatym jednolicie czarnym ubraniu. Drugi oparty o ścianę chudzielec w obcisłym kapturze dorównujący wzrostem Jano. Przeorysza już miała się odezwać kiedy siedzący za stołem mężczyzna przerwał jej bez ceregieli:
+
+-Wiecie kim jestem? 
+
+",Tak.,78,Nie.,79,,,,,,,,
+,,,"- Mówią o tobie Komes, spotkaliśmy twoich ludzi -patrzysz na niego wyzywająco. Mężczyzna popatrzył na każdego z was i wskazuje krzesła.",Siadasz.,80,,,,,,,,,,
+,,,- Mówią na mnie Komes - spotkaliście moich ludzi. Mężczyzna popatrzył na każdego z was i wskazuje krzesła.,Siadasz.,80,,,,,,,,,,
+,,,"Kiedy siedliście przy stole, kontynuuje.
+- Z mojej strony nic Wam nie grozi. Drobna sprzeczka z moimi nadgorliwymi ludźmi  nie powinna stanąć na drodze interesom.  Popatrzył szybko na Przeoryszę która odwróciła wzrok. Splata ręce i uśmiechna się.
+- Podobacie mi się - jesteście niezłymi łobuzami i takich ludzi mi potrzeba….
+",Nie będziemy dla Ciebie pracować!,81,Czego od nas chcesz?,82,,,,,,,,
+,,,"Uśmiechnął się. 
+-Zaraz wytłumaczę - może zmienicie zdanie.
+",- No to mów!,,,,,,,,,,,
+,,,"- Cecylio - zwrócił się do lekko nieobecnej Przeoryszy wytłumacz tym chwatom co dzieje się za rzeką. 
+
+
+",Odwracasz sie w strone Przeoryszy.,83,,,,,,,,,,
+,,,Przeorysza opowiada o drógiej stronie rzeki. ,,,,,,,,,,,,
